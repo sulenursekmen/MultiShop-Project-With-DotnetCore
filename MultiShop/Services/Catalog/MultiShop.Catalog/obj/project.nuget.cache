@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "trp2dSwuRc/3qm7Rgb3WNsnl0UiK3Erga4KO64bzAIVKZG+IxrGQhux09kQPi9Iz1eCPF/d4B95otWYfHKw4CA==",
+  "dgSpecHash": "wCdYpttmVC4dnLB44eKLZ2F0t0uWTRGvFjVomtXdU5W842R95we/s4mGdxswlWTdZvtgtDip5zpV6RYBgOiErg==",
   "success": true,
-  "projectFilePath": "D:\\test\\MultiShop\\Services\\Catalog\\MultiShop.Catalog\\MultiShop.Catalog.csproj",
+  "projectFilePath": "C:\\Users\\sulen\\Desktop\\MultiShop-Project\\MultiShop-Project\\MultiShop\\Services\\Catalog\\MultiShop.Catalog\\MultiShop.Catalog.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\sulen\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\sulen\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",

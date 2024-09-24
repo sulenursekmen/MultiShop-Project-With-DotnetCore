@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\test\\MultiShop\\Services\\Catalog\\MultiShop.Catalog\\MultiShop.Catalog.csproj": {}
+    "C:\\Users\\sulen\\Desktop\\MultiShop-Project\\MultiShop-Project\\MultiShop\\Services\\Catalog\\MultiShop.Catalog\\MultiShop.Catalog.csproj": {}
   },
   "projects": {
-    "D:\\test\\MultiShop\\Services\\Catalog\\MultiShop.Catalog\\MultiShop.Catalog.csproj": {
+    "C:\\Users\\sulen\\Desktop\\MultiShop-Project\\MultiShop-Project\\MultiShop\\Services\\Catalog\\MultiShop.Catalog\\MultiShop.Catalog.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\test\\MultiShop\\Services\\Catalog\\MultiShop.Catalog\\MultiShop.Catalog.csproj",
+        "projectUniqueName": "C:\\Users\\sulen\\Desktop\\MultiShop-Project\\MultiShop-Project\\MultiShop\\Services\\Catalog\\MultiShop.Catalog\\MultiShop.Catalog.csproj",
         "projectName": "MultiShop.Catalog",
-        "projectPath": "D:\\test\\MultiShop\\Services\\Catalog\\MultiShop.Catalog\\MultiShop.Catalog.csproj",
+        "projectPath": "C:\\Users\\sulen\\Desktop\\MultiShop-Project\\MultiShop-Project\\MultiShop\\Services\\Catalog\\MultiShop.Catalog\\MultiShop.Catalog.csproj",
         "packagesPath": "C:\\Users\\sulen\\.nuget\\packages\\",
-        "outputPath": "D:\\test\\MultiShop\\Services\\Catalog\\MultiShop.Catalog\\obj\\",
+        "outputPath": "C:\\Users\\sulen\\Desktop\\MultiShop-Project\\MultiShop-Project\\MultiShop\\Services\\Catalog\\MultiShop.Catalog\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
