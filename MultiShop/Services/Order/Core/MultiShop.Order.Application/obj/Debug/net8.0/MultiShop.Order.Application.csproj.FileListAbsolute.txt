@@ -1,0 +1,16 @@
+C:\Users\sulen\Desktop\MultiShop-Project\MultiShop-Project\MultiShop\Services\Order\Core\MultiShop.Order.Application\bin\Debug\net8.0\MultiShop.Order.Application.deps.json
+C:\Users\sulen\Desktop\MultiShop-Project\MultiShop-Project\MultiShop\Services\Order\Core\MultiShop.Order.Application\bin\Debug\net8.0\MultiShop.Order.Application.dll
+C:\Users\sulen\Desktop\MultiShop-Project\MultiShop-Project\MultiShop\Services\Order\Core\MultiShop.Order.Application\bin\Debug\net8.0\MultiShop.Order.Application.pdb
+C:\Users\sulen\Desktop\MultiShop-Project\MultiShop-Project\MultiShop\Services\Order\Core\MultiShop.Order.Application\bin\Debug\net8.0\MultiShop.Order.Domain.dll
+C:\Users\sulen\Desktop\MultiShop-Project\MultiShop-Project\MultiShop\Services\Order\Core\MultiShop.Order.Application\bin\Debug\net8.0\MultiShop.Order.Domain.pdb
+C:\Users\sulen\Desktop\MultiShop-Project\MultiShop-Project\MultiShop\Services\Order\Core\MultiShop.Order.Application\obj\Debug\net8.0\MultiShop.Order.Application.csproj.AssemblyReference.cache
+C:\Users\sulen\Desktop\MultiShop-Project\MultiShop-Project\MultiShop\Services\Order\Core\MultiShop.Order.Application\obj\Debug\net8.0\MultiShop.Order.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sulen\Desktop\MultiShop-Project\MultiShop-Project\MultiShop\Services\Order\Core\MultiShop.Order.Application\obj\Debug\net8.0\MultiShop.Order.Application.AssemblyInfoInputs.cache
+C:\Users\sulen\Desktop\MultiShop-Project\MultiShop-Project\MultiShop\Services\Order\Core\MultiShop.Order.Application\obj\Debug\net8.0\MultiShop.Order.Application.AssemblyInfo.cs
+C:\Users\sulen\Desktop\MultiShop-Project\MultiShop-Project\MultiShop\Services\Order\Core\MultiShop.Order.Application\obj\Debug\net8.0\MultiShop.Order.Application.csproj.CoreCompileInputs.cache
+C:\Users\sulen\Desktop\MultiShop-Project\MultiShop-Project\MultiShop\Services\Order\Core\MultiShop.Order.Application\obj\Debug\net8.0\MultiShop.Order.Application.sourcelink.json
+C:\Users\sulen\Desktop\MultiShop-Project\MultiShop-Project\MultiShop\Services\Order\Core\MultiShop.Order.Application\obj\Debug\net8.0\MultiShop.Order.Application.csproj.CopyComplete
+C:\Users\sulen\Desktop\MultiShop-Project\MultiShop-Project\MultiShop\Services\Order\Core\MultiShop.Order.Application\obj\Debug\net8.0\MultiShop.Order.Application.dll
+C:\Users\sulen\Desktop\MultiShop-Project\MultiShop-Project\MultiShop\Services\Order\Core\MultiShop.Order.Application\obj\Debug\net8.0\refint\MultiShop.Order.Application.dll
+C:\Users\sulen\Desktop\MultiShop-Project\MultiShop-Project\MultiShop\Services\Order\Core\MultiShop.Order.Application\obj\Debug\net8.0\MultiShop.Order.Application.pdb
+C:\Users\sulen\Desktop\MultiShop-Project\MultiShop-Project\MultiShop\Services\Order\Core\MultiShop.Order.Application\obj\Debug\net8.0\ref\MultiShop.Order.Application.dll
