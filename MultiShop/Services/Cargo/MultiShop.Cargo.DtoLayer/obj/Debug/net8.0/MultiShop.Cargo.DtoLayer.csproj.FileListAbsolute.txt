@@ -1,0 +1,12 @@
+C:\Users\sulen\Desktop\MultiShop-Project\MultiShop-Project\MultiShop\Services\Cargo\MultiShop.Cargo.DtoLayer\bin\Debug\net8.0\MultiShop.Cargo.DtoLayer.deps.json
+C:\Users\sulen\Desktop\MultiShop-Project\MultiShop-Project\MultiShop\Services\Cargo\MultiShop.Cargo.DtoLayer\bin\Debug\net8.0\MultiShop.Cargo.DtoLayer.dll
+C:\Users\sulen\Desktop\MultiShop-Project\MultiShop-Project\MultiShop\Services\Cargo\MultiShop.Cargo.DtoLayer\bin\Debug\net8.0\MultiShop.Cargo.DtoLayer.pdb
+C:\Users\sulen\Desktop\MultiShop-Project\MultiShop-Project\MultiShop\Services\Cargo\MultiShop.Cargo.DtoLayer\obj\Debug\net8.0\MultiShop.Cargo.DtoLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sulen\Desktop\MultiShop-Project\MultiShop-Project\MultiShop\Services\Cargo\MultiShop.Cargo.DtoLayer\obj\Debug\net8.0\MultiShop.Cargo.DtoLayer.AssemblyInfoInputs.cache
+C:\Users\sulen\Desktop\MultiShop-Project\MultiShop-Project\MultiShop\Services\Cargo\MultiShop.Cargo.DtoLayer\obj\Debug\net8.0\MultiShop.Cargo.DtoLayer.AssemblyInfo.cs
+C:\Users\sulen\Desktop\MultiShop-Project\MultiShop-Project\MultiShop\Services\Cargo\MultiShop.Cargo.DtoLayer\obj\Debug\net8.0\MultiShop.Cargo.DtoLayer.csproj.CoreCompileInputs.cache
+C:\Users\sulen\Desktop\MultiShop-Project\MultiShop-Project\MultiShop\Services\Cargo\MultiShop.Cargo.DtoLayer\obj\Debug\net8.0\MultiShop.Cargo.DtoLayer.sourcelink.json
+C:\Users\sulen\Desktop\MultiShop-Project\MultiShop-Project\MultiShop\Services\Cargo\MultiShop.Cargo.DtoLayer\obj\Debug\net8.0\MultiShop.Cargo.DtoLayer.dll
+C:\Users\sulen\Desktop\MultiShop-Project\MultiShop-Project\MultiShop\Services\Cargo\MultiShop.Cargo.DtoLayer\obj\Debug\net8.0\refint\MultiShop.Cargo.DtoLayer.dll
+C:\Users\sulen\Desktop\MultiShop-Project\MultiShop-Project\MultiShop\Services\Cargo\MultiShop.Cargo.DtoLayer\obj\Debug\net8.0\MultiShop.Cargo.DtoLayer.pdb
+C:\Users\sulen\Desktop\MultiShop-Project\MultiShop-Project\MultiShop\Services\Cargo\MultiShop.Cargo.DtoLayer\obj\Debug\net8.0\ref\MultiShop.Cargo.DtoLayer.dll
