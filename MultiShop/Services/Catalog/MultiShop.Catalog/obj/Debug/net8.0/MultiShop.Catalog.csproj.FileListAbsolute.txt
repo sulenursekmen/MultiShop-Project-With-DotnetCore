@@ -55,6 +55,13 @@ C:\Users\sulen\Desktop\MultiShop-Project\MultiShop-Project\MultiShop\Services\Ca
 C:\Users\sulen\Desktop\MultiShop-Project\MultiShop-Project\MultiShop\Services\Catalog\MultiShop.Catalog\bin\Debug\net8.0\AWSSDK.Core.dll
 C:\Users\sulen\Desktop\MultiShop-Project\MultiShop-Project\MultiShop\Services\Catalog\MultiShop.Catalog\bin\Debug\net8.0\AWSSDK.SecurityToken.dll
 C:\Users\sulen\Desktop\MultiShop-Project\MultiShop-Project\MultiShop\Services\Catalog\MultiShop.Catalog\bin\Debug\net8.0\DnsClient.dll
+C:\Users\sulen\Desktop\MultiShop-Project\MultiShop-Project\MultiShop\Services\Catalog\MultiShop.Catalog\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\sulen\Desktop\MultiShop-Project\MultiShop-Project\MultiShop\Services\Catalog\MultiShop.Catalog\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\sulen\Desktop\MultiShop-Project\MultiShop-Project\MultiShop\Services\Catalog\MultiShop.Catalog\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\sulen\Desktop\MultiShop-Project\MultiShop-Project\MultiShop\Services\Catalog\MultiShop.Catalog\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\sulen\Desktop\MultiShop-Project\MultiShop-Project\MultiShop\Services\Catalog\MultiShop.Catalog\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\sulen\Desktop\MultiShop-Project\MultiShop-Project\MultiShop\Services\Catalog\MultiShop.Catalog\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\sulen\Desktop\MultiShop-Project\MultiShop-Project\MultiShop\Services\Catalog\MultiShop.Catalog\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
 C:\Users\sulen\Desktop\MultiShop-Project\MultiShop-Project\MultiShop\Services\Catalog\MultiShop.Catalog\bin\Debug\net8.0\Microsoft.OpenApi.dll
 C:\Users\sulen\Desktop\MultiShop-Project\MultiShop-Project\MultiShop\Services\Catalog\MultiShop.Catalog\bin\Debug\net8.0\MongoDB.Bson.dll
 C:\Users\sulen\Desktop\MultiShop-Project\MultiShop-Project\MultiShop\Services\Catalog\MultiShop.Catalog\bin\Debug\net8.0\MongoDB.Driver.dll
@@ -65,6 +72,7 @@ C:\Users\sulen\Desktop\MultiShop-Project\MultiShop-Project\MultiShop\Services\Ca
 C:\Users\sulen\Desktop\MultiShop-Project\MultiShop-Project\MultiShop\Services\Catalog\MultiShop.Catalog\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Users\sulen\Desktop\MultiShop-Project\MultiShop-Project\MultiShop\Services\Catalog\MultiShop.Catalog\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\sulen\Desktop\MultiShop-Project\MultiShop-Project\MultiShop\Services\Catalog\MultiShop.Catalog\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\sulen\Desktop\MultiShop-Project\MultiShop-Project\MultiShop\Services\Catalog\MultiShop.Catalog\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
 C:\Users\sulen\Desktop\MultiShop-Project\MultiShop-Project\MultiShop\Services\Catalog\MultiShop.Catalog\bin\Debug\net8.0\ZstdSharp.dll
 C:\Users\sulen\Desktop\MultiShop-Project\MultiShop-Project\MultiShop\Services\Catalog\MultiShop.Catalog\bin\Debug\net8.0\runtimes\linux\native\libmongocrypt.so
 C:\Users\sulen\Desktop\MultiShop-Project\MultiShop-Project\MultiShop\Services\Catalog\MultiShop.Catalog\bin\Debug\net8.0\runtimes\osx\native\libmongocrypt.dylib
