@@ -30,12 +30,32 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVmYXVsdFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/sulen/Desktop/MultiShop-Project/MultiShop-Project/MultiShop/Frontends/MultiShop.WebUI/Views/ProductList/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdExpc3RcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sulen/Desktop/MultiShop-Project/MultiShop-Project/MultiShop/Frontends/MultiShop.WebUI/Views/ProductList/ProductDetail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdExpc3RcUHJvZHVjdERldGFpbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sulen/Desktop/MultiShop-Project/MultiShop-Project/MultiShop/Frontends/MultiShop.WebUI/Views/Shared/Components/_AdditionalInfoProductDetailComponentPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX0FkZGl0aW9uYWxJbmZvUHJvZHVjdERldGFpbENvbXBvbmVudFBhcnRpYWxcRGVmYXVsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/sulen/Desktop/MultiShop-Project/MultiShop-Project/MultiShop/Frontends/MultiShop.WebUI/Views/Shared/Components/_CarouselDefaultComponentPartial/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX0Nhcm91c2VsRGVmYXVsdENvbXBvbmVudFBhcnRpYWxcRGVmYXVsdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/sulen/Desktop/MultiShop-Project/MultiShop-Project/MultiShop/Frontends/MultiShop.WebUI/Views/Shared/Components/_CategoriesDefaultComponentPartial/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX0NhdGVnb3JpZXNEZWZhdWx0Q29tcG9uZW50UGFydGlhbFxEZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sulen/Desktop/MultiShop-Project/MultiShop-Project/MultiShop/Frontends/MultiShop.WebUI/Views/Shared/Components/_ColorFilterProductListComponentPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX0NvbG9yRmlsdGVyUHJvZHVjdExpc3RDb21wb25lbnRQYXJ0aWFsXERlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sulen/Desktop/MultiShop-Project/MultiShop-Project/MultiShop/Frontends/MultiShop.WebUI/Views/Shared/Components/_DescriptionProductDetailComponentPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX0Rlc2NyaXB0aW9uUHJvZHVjdERldGFpbENvbXBvbmVudFBhcnRpYWxcRGVmYXVsdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/sulen/Desktop/MultiShop-Project/MultiShop-Project/MultiShop/Frontends/MultiShop.WebUI/Views/Shared/Components/_FeatureDefaultComponentPartial/Default.cshtml]
@@ -54,8 +74,44 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX0hlYWRVSUxheW91dENvbXBvbmVudFBhcnRpYWxcRGVmYXVsdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/sulen/Desktop/MultiShop-Project/MultiShop-Project/MultiShop/Frontends/MultiShop.WebUI/Views/Shared/Components/_ImageSliderProductDetailComponentPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX0ltYWdlU2xpZGVyUHJvZHVjdERldGFpbENvbXBvbmVudFBhcnRpYWxcRGVmYXVsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/sulen/Desktop/MultiShop-Project/MultiShop-Project/MultiShop/Frontends/MultiShop.WebUI/Views/Shared/Components/_NavbarUILayoutComponentPartial/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX05hdmJhclVJTGF5b3V0Q29tcG9uZW50UGFydGlhbFxEZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sulen/Desktop/MultiShop-Project/MultiShop-Project/MultiShop/Frontends/MultiShop.WebUI/Views/Shared/Components/_PaginationProductListComponentPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX1BhZ2luYXRpb25Qcm9kdWN0TGlzdENvbXBvbmVudFBhcnRpYWxcRGVmYXVsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sulen/Desktop/MultiShop-Project/MultiShop-Project/MultiShop/Frontends/MultiShop.WebUI/Views/Shared/Components/_PriceFilterProductListComponentPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX1ByaWNlRmlsdGVyUHJvZHVjdExpc3RDb21wb25lbnRQYXJ0aWFsXERlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sulen/Desktop/MultiShop-Project/MultiShop-Project/MultiShop/Frontends/MultiShop.WebUI/Views/Shared/Components/_ProductInfoProductDetailComponentPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX1Byb2R1Y3RJbmZvUHJvZHVjdERldGFpbENvbXBvbmVudFBhcnRpYWxcRGVmYXVsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sulen/Desktop/MultiShop-Project/MultiShop-Project/MultiShop/Frontends/MultiShop.WebUI/Views/Shared/Components/_ProductListComponentPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX1Byb2R1Y3RMaXN0Q29tcG9uZW50UGFydGlhbFxEZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sulen/Desktop/MultiShop-Project/MultiShop-Project/MultiShop/Frontends/MultiShop.WebUI/Views/Shared/Components/_ReviewProductDetailComponentPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX1Jldmlld1Byb2R1Y3REZXRhaWxDb21wb25lbnRQYXJ0aWFsXERlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sulen/Desktop/MultiShop-Project/MultiShop-Project/MultiShop/Frontends/MultiShop.WebUI/Views/Shared/Components/_ScriptUILayoutComponentPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX1NjcmlwdFVJTGF5b3V0Q29tcG9uZW50UGFydGlhbFxEZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sulen/Desktop/MultiShop-Project/MultiShop-Project/MultiShop/Frontends/MultiShop.WebUI/Views/Shared/Components/_SizeFilterProductListComponentPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX1NpemVGaWx0ZXJQcm9kdWN0TGlzdENvbXBvbmVudFBhcnRpYWxcRGVmYXVsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sulen/Desktop/MultiShop-Project/MultiShop-Project/MultiShop/Frontends/MultiShop.WebUI/Views/Shared/Components/_SortingAndShowingProductListComponentPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX1NvcnRpbmdBbmRTaG93aW5nUHJvZHVjdExpc3RDb21wb25lbnRQYXJ0aWFsXERlZmF1bHQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/sulen/Desktop/MultiShop-Project/MultiShop-Project/MultiShop/Frontends/MultiShop.WebUI/Views/Shared/Components/_SpeacialOfferComponentPartial/Default.cshtml]
