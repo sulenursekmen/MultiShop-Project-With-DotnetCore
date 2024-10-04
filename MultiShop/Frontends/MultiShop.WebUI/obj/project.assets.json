@@ -2354,6 +2354,16 @@
             "rid": "win"
           }
         }
+      },
+      "MultiShop.DtoLayer/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/MultiShop.DtoLayer.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MultiShop.DtoLayer.dll": {}
+        }
       }
     }
   },
@@ -6421,13 +6431,19 @@
         "system.windows.extensions.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "MultiShop.DtoLayer/1.0.0": {
+      "type": "project",
+      "path": "../MultiShop.DtoLayer/MultiShop.DtoLayer.csproj",
+      "msbuildProject": "../MultiShop.DtoLayer/MultiShop.DtoLayer.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
       "Microsoft.AspNetCore.Components.QuickGrid.EntityFrameworkAdapter >= 8.0.8",
       "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore >= 8.0.8",
-      "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 8.0.5"
+      "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 8.0.5",
+      "MultiShop.DtoLayer >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -6462,7 +6478,11 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\sulen\\Desktop\\MultiShop-Project\\MultiShop-Project\\MultiShop\\Frontends\\MultiShop.DtoLayer\\MultiShop.DtoLayer.csproj": {
+              "projectPath": "C:\\Users\\sulen\\Desktop\\MultiShop-Project\\MultiShop-Project\\MultiShop\\Frontends\\MultiShop.DtoLayer\\MultiShop.DtoLayer.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

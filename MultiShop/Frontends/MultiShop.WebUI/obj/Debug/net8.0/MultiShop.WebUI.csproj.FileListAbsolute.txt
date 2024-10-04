@@ -240,3 +240,5 @@ C:\Users\sulen\Desktop\MultiShop-Project\MultiShop-Project\MultiShop\Frontends\M
 C:\Users\sulen\Desktop\MultiShop-Project\MultiShop-Project\MultiShop\Frontends\MultiShop.WebUI\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Windows.Extensions.dll
 C:\Users\sulen\Desktop\MultiShop-Project\MultiShop-Project\MultiShop\Frontends\MultiShop.WebUI\obj\Debug\net8.0\MultiShop.WebUI.csproj.AssemblyReference.cache
 C:\Users\sulen\Desktop\MultiShop-Project\MultiShop-Project\MultiShop\Frontends\MultiShop.WebUI\obj\Debug\net8.0\MultiShop.WebUI.csproj.CopyComplete
+C:\Users\sulen\Desktop\MultiShop-Project\MultiShop-Project\MultiShop\Frontends\MultiShop.WebUI\bin\Debug\net8.0\MultiShop.DtoLayer.dll
+C:\Users\sulen\Desktop\MultiShop-Project\MultiShop-Project\MultiShop\Frontends\MultiShop.WebUI\bin\Debug\net8.0\MultiShop.DtoLayer.pdb

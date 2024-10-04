@@ -1,0 +1,31 @@
+﻿@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html lang="en">
+@await Component.InvokeAsync("_HeadAdminLayoutComponentPartial")
+
+<body id="page-top">
+    <div id="wrapper">
+        @await Component.InvokeAsync("_SidebarAdminLayoutComponentPartial")
+        <div id="content-wrapper" class="d-flex flex-column">
+            <div id="content">
+                @await Component.InvokeAsync("_TopbarAdminLayoutComponentPartial")
+                <div class="container-fluid">
+                    @await Component.InvokeAsync("_BreadcrumbAdminLayoutComponentPartial")
+                    @RenderBody()
+                </div>
+            </div>
+            @await Component.InvokeAsync("_FooterAdminLayoutComponentPartial")
+        </div>
+        <!-- End of Content Wrapper -->
+    </div>
+    <!-- End of Page Wrapper -->
+    <!-- Scroll to Top Button-->
+    <a class="scroll-to-top rounded" href="#page-top">
+        <i class="fas fa-angle-up"></i>
+    </a>
+    @await Component.InvokeAsync("_ScriptAdminLayoutComponentPartial")
+</body>
+
+</html>
