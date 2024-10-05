@@ -23,6 +23,8 @@ namespace MultiShop.Catalog.Mapping
             CreateMap<Product, CreateProductDto>().ReverseMap();
             CreateMap<Product, GetByIdProductDto>().ReverseMap();
             CreateMap<Product, UpdateProductDto>().ReverseMap();
+            CreateMap<Product, ResultProductsWithCategoryDto>().ReverseMap();
+           
 
             //ProductDetail Mapping
             CreateMap<ProductDetail, ResultProductDetailDto>().ReverseMap();

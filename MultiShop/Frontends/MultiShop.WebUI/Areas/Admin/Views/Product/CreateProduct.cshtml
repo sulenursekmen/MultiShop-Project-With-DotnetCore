@@ -1,0 +1,33 @@
+﻿@model CreateProductDto
+@{
+    ViewData["Title"] = "CreateProduct";
+    Layout = "~/Areas/Admin/Views/AdminLayout/Index.cshtml";
+}
+
+<div class="card shadow mb-4">
+    <div class="card-header py-3">
+        <h6 class="m-0 font-weight-bold text-primary">Ürün Ekleme Sayfası</h6>
+    </div>
+    <div class="card-body">
+        <div class="table-responsive">
+            <form method="post">
+                <label>Ürün Adı</label>
+                <input type="text" class="form-control" asp-for="ProductName" />
+                <br />
+                <label>Ürün Fiyatı</label>
+                <input type="text" class="form-control" asp-for="ProductPrice" />
+                <br />
+                <label>Ürün Görseli</label>
+                <input type="text" class="form-control" asp-for="ProductImageUrl" />
+                <br />
+                <label>Ürün Kategori</label>
+                @Html.DropDownListFor(x => x.CategoryId, (List<SelectListItem>)ViewBag.CategoryValues, new { @class = "form-control" })
+                <br />
+                <label>Ürün Açıklama</label>
+                <textarea class="form-control" asp-for="ProductDescription" rows="5"></textarea>
+                <br />
+                <button class="btn btn-primary">Ekle</button>
+            </form>
+        </div>
+    </div>
+</div>
