@@ -1,12 +1,16 @@
-﻿<div class="col-lg-4">
+﻿@model List<ResultSpecialOfferDto>
+
+
+<div class="col-lg-4">
+    @foreach (var item in Model)
+    {
     <div class="product-offer mb-30" style="height: 200px;">
-        <img class="img-fluid" src="https://www.maslakoutlet.com/i/maslak-banner-outlet-70.jpg" alt="">
-    </div>
-    <div class="product-offer mb-30" style="height: 200px;">
-        <img class="img-fluid" src="https://resim.zayifakim.com/2021/03/anons-sistemi-secerken-dikkat-edilmesi-gereken-6-husus.jpg" alt="">
+        <img class="img-fluid" src="@item.ImageUrl" alt="">
         <div class="offer-text">
-            <h3 class="text-white mb-3">Günün Fırsatı</h3>
-            <a href="" class="btn btn-primary">Ürünleri Gör</a>
+            <h4 class="text-white mb-3">@item.Title</h4>
+            <h6 class="text-white mb-3">@item.SubTİtle</h6>
+            <a href="" class="btn btn-primary">Alışverişe Başla</a>
         </div>
     </div>
+    }
 </div>

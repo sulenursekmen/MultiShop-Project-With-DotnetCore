@@ -1,31 +1,15 @@
-﻿<div class="container-fluid py-5">
+﻿@model List<ResultBrandDto>
+
+<div class="container-fluid py-5">
     <div class="row px-xl-5">
         <div class="col">
             <div class="owl-carousel vendor-carousel">
-                <div class="bg-light p-4">
-                    <img src="https://www.yerlituket.com/images/brand/mavi-jeans.png" alt="">
-                </div>
-                <div class="bg-light p-4">
-                    <img src="https://logopond.com/logos/66ad04f8512716578ce7f444863f76c7.png" alt="">
-                </div>
-                <div class="bg-light p-4">
-                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIYy_yxvpcg2rf3kg2S3hThKrjowMnxDfI8g&s" alt="">
-                </div>
-                <div class="bg-light p-4">
-                    <img src="https://logowik.com/content/uploads/images/607_ebebek.jpg" alt="">
-                </div>
-                <div class="bg-light p-4">
-                    <img src="https://netrinoimages.s3.eu-west-2.amazonaws.com/2012/01/03/122125/49895/adidas_logo_3d_model_c4d_max_obj_fbx_ma_lwo_3ds_3dm_stl_384267.jpg" alt="">
-                </div>
-                <div class="bg-light p-4">
-                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmxazXiJuQDd0BwC5ZZvNkXspcORRrb52aLA&s" alt="">
-                </div>
-                <div class="bg-light p-4">
-                    <img src="https://logowik.com/content/uploads/images/karaca-yeni4371.jpg" alt="">
-                </div>
-                <div class="bg-light p-4">
-                    <img src="https://kreafolk.com/cdn/shop/articles/philips-logo-design-history-and-evolution-kreafolk.jpg?v=1717725018&width=2048" alt="">
-                </div>
+                @foreach (var item in Model)
+                {
+                    <div class="bg-light p-4">
+                        <img src="@item.ImageUrl" alt="">
+                    </div>
+                }
             </div>
         </div>
     </div>

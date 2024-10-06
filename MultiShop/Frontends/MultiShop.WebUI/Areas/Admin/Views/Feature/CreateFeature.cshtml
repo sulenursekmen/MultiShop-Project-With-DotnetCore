@@ -1,0 +1,24 @@
+﻿@model CreateFeatureDto
+@{
+    ViewData["Title"] = "CreateFeature";
+    Layout = "~/Areas/Admin/Views/AdminLayout/Index.cshtml";
+}
+
+<div class="card shadow mb-4">
+    <div class="card-header py-3">
+        <h6 class="m-0 font-weight-bold text-primary">Öne Çıkan Ekleme Sayfası</h6>
+    </div>
+    <div class="card-body">
+        <div class="table-responsive">
+            <form method="post">
+                <label>Başlık</label>
+                <input type="text" class="form-control" asp-for="Title" />
+                <br />
+                <label>Icon</label>
+                <input type="text" class="form-control" asp-for="Icon" />
+                <br />
+                <button class="btn btn-primary">Ekle</button>
+            </form>
+        </div>
+    </div>
+</div>

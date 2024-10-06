@@ -1,0 +1,19 @@
+﻿@model List<ResultOfferDiscountDto>
+
+<div class="container-fluid pt-5 pb-3">
+    <div class="row px-xl-5">
+        @foreach (var item in Model)
+        {
+            <div class="col-md-6">
+                <div class="product-offer mb-30" style="height: 300px;">
+                    <img class="img-fluid" src="@item.ImageUrl" alt="">
+                    <div class="offer-text">
+                        <h3 class="text-white text-uppercase">@item.Title</h3>
+                        <h6 class="text-white mb-3">@item.SubTİtle</h6>
+                        <a href="" class="btn btn-primary">@item.ButtonTitle</a>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>

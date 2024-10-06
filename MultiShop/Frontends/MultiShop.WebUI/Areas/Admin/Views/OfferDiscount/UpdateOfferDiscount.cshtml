@@ -1,0 +1,32 @@
+﻿@model UpdateOfferDiscountDto
+@{
+    ViewData["Title"] = "UpdateOfferDiscount";
+    Layout = "~/Areas/Admin/Views/AdminLayout/Index.cshtml";
+}
+
+
+<div class="card shadow mb-4">
+    <div class="card-header py-3">
+        <h6 class="m-0 font-weight-bold text-primary">Özel Teklifler Ekleme Sayfası</h6>
+    </div>
+    <div class="card-body">
+        <div class="table-responsive">
+            <form method="post">
+                <input type="hidden" asp-for="OfferDiscountId" />
+                <label>Başlık</label>
+                <input type="text" class="form-control" asp-for="Title" />
+                <br />
+                <label>Alt Başlık</label>
+                <input type="text" class="form-control" asp-for="SubTİtle" />
+                <br />
+                <label>Özel Teklif Görseli</label>
+                <input type="text" class="form-control" asp-for="ImageUrl" />
+                <br />
+                <label>Buton Adı</label>
+                <input type="text" class="form-control" asp-for="ButtonTitle" />
+                <br />
+                <button class="btn btn-primary">Ekle</button>
+            </form>
+        </div>
+    </div>
+</div>

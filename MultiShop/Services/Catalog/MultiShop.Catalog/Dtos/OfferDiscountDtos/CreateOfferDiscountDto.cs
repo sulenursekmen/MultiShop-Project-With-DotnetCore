@@ -1,0 +1,10 @@
+﻿namespace MultiShop.Catalog.Dtos.OfferDiscountDtos
+{
+    public class CreateOfferDiscountDto
+    {
+        public string Title { get; set; }
+        public string SubTİtle { get; set; }
+        public string ImageUrl { get; set; }
+        public string ButtonTitle { get; set; }
+    }
+}

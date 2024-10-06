@@ -18,7 +18,7 @@
                     <tr>
                         <th>#</th>
                         <th>Kategori Adı</th>
-                        <th>Kategoriye Ait Ürünler</th>
+                        <th>Kategori Resmi</th>
                         <th>Sil</th>
                         <th>Güncelle</th>
                     </tr>
@@ -27,7 +27,7 @@
                     <tr>
                         <th>#</th>
                         <th>Kategori Adı</th>
-                        <th>Kategoriye Ait Ürünler</th>
+                        <th>Kategori Resmi</th>
                         <th>Sil</th>
                         <th>Güncelle</th>
                     </tr>
@@ -39,7 +39,9 @@
                         <tr>
                             <td scope="row">@count</td>
                             <td>@item.CategoryName</td>
-                            <td><a href="#"><i class="fas fa-arrow-circle-right"></i> @item.CategoryName Kategorisine Ait Ürünler  </a></td>
+                            <td>
+                                <img src="@item.ImageUrl" width="50px" height="auto"/>
+                            </td>
                             <td><a href="/Admin/Category/DeleteCategory/@item.CategoryId" class="btn btn-danger"><i class="fa fa-trash" aria-hidden="true"></i></a></td>
                             <td><a href="/Admin/Category/UpdateCategory/@item.CategoryId" class="btn btn-info"><i class="fas fa-edit"></i></a></td>
                         </tr>
