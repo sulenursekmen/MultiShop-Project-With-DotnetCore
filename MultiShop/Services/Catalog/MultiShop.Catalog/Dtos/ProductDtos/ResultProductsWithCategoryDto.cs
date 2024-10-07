@@ -1,4 +1,6 @@
-﻿namespace MultiShop.Catalog.Dtos.ProductDtos
+﻿using MultiShop.Catalog.Entities;
+
+namespace MultiShop.Catalog.Dtos.ProductDtos
 {
     public class ResultProductsWithCategoryDto
     {

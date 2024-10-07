@@ -1,0 +1,29 @@
+﻿@model CreateAboutDto
+@{
+    ViewData["Title"] = "CreateAbout";
+    Layout = "~/Areas/Admin/Views/AdminLayout/Index.cshtml";
+}
+<div class="card shadow mb-4">
+    <div class="card-header py-3">
+        <h6 class="m-0 font-weight-bold text-primary">Hakkımızda Ekleme Sayfası</h6>
+    </div>
+    <div class="card-body">
+        <div class="table-responsive">
+            <form method="post">
+                <label>Açıklama</label>
+                <input type="text" class="form-control" asp-for="Description" />
+                <br />
+                <label>Adres</label>
+                <input type="text" class="form-control" asp-for="Address" />
+                <br />
+                <label>E-posta</label>
+                <input type="text" class="form-control" asp-for="Email" />
+                <br />
+                <label>Telefon</label>
+                <input type="text" class="form-control" asp-for="Phone" />
+                <br />
+                <button class="btn btn-primary">Ekle</button>
+            </form>
+        </div>
+    </div>
+</div>
