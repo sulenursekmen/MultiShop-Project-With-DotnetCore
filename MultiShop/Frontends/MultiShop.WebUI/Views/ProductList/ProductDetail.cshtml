@@ -16,8 +16,8 @@
 </div>
 <div class="container-fluid pb-5">
     <div class="row px-xl-5">
-        @await Component.InvokeAsync("_ImageSliderProductDetailComponentPartial")
-        @await Component.InvokeAsync("_ProductInfoProductDetailComponentPartial")
+        @await Component.InvokeAsync("_ImageSliderProductDetailComponentPartial", new { id = ViewBag.productDetailId })
+        @await Component.InvokeAsync("_ProductInfoProductDetailComponentPartial", new { id= ViewBag.productDetailId })
     </div>
     <div class="row px-xl-5">
         <div class="col">

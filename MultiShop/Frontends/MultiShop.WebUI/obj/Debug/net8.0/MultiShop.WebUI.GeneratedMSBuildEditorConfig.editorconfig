@@ -102,6 +102,14 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcT2ZmZXJEaXNjb3VudFxVcGRhdGVPZmZlckRpc2NvdW50LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/sulen/Desktop/MultiShop-Project/MultiShop-Project/MultiShop/Frontends/MultiShop.WebUI/Areas/Admin/Views/ProductImage/ProductImageDetail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUHJvZHVjdEltYWdlXFByb2R1Y3RJbWFnZURldGFpbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sulen/Desktop/MultiShop-Project/MultiShop-Project/MultiShop/Frontends/MultiShop.WebUI/Areas/Admin/Views/ProductImage/ProductImageList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUHJvZHVjdEltYWdlXFByb2R1Y3RJbWFnZUxpc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/sulen/Desktop/MultiShop-Project/MultiShop-Project/MultiShop/Frontends/MultiShop.WebUI/Areas/Admin/Views/Product/CreateProduct.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUHJvZHVjdFxDcmVhdGVQcm9kdWN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 

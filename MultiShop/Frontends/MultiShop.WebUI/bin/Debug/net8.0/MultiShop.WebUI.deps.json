@@ -11,6 +11,8 @@
           "Microsoft.AspNetCore.Components.QuickGrid.EntityFrameworkAdapter": "8.0.8",
           "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": "8.0.8",
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "8.0.5",
+          "MongoDB.Bson": "2.29.0",
+          "MongoDB.Driver": "2.29.0",
           "MultiShop.DtoLayer": "1.0.0"
         },
         "runtime": {

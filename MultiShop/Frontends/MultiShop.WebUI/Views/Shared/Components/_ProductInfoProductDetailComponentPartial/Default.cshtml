@@ -1,6 +1,7 @@
-﻿<div class="col-lg-7 h-auto mb-30">
+﻿@model UpdateProductDto
+<div class="col-lg-7 h-auto mb-30">
     <div class="h-100 bg-light p-30">
-        <h3>Kadın Kazak</h3>
+        <h3>@Model.ProductName</h3>
         <div class="d-flex mb-3">
             <div class="text-primary mr-2">
                 <small class="fas fa-star"></small>
@@ -9,13 +10,11 @@
                 <small class="fas fa-star-half-alt"></small>
                 <small class="far fa-star"></small>
             </div>
-            <small class="pt-1">(32 Değerlendirme)</small>
+            <small class="pt-1">(0 Değerlendirme)</small>
         </div>
-        <h3 class="font-weight-semi-bold mb-4">2.500 ₺</h3>
+        <h3 class="font-weight-semi-bold mb-4">@Model.ProductPrice.ToString("C")</h3>
         <p class="mb-4">
-            Volup erat ipsum diam elitr rebum et dolor. Est nonumy elitr erat diam stet sit
-            clita ea. Sanc ipsum et, labore clita lorem magna duo dolor no sea
-            Nonumy
+            @Model.ProductDescription
         </p>
         <div class="d-flex mb-3">
             <strong class="text-dark mr-3">Sizes:</strong>

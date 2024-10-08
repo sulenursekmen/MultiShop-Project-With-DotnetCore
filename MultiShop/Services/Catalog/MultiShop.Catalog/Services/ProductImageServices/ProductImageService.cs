@@ -36,6 +36,12 @@ namespace MultiShop.Catalog.Services.ProductImageServices
             return _mapper.Map<List<ResultProductImageDto>>(values);
         }
 
+        public async Task<GetByIdProductImageDto> GetByProductIdProductImageAsync(string id)
+        {
+            var values = await _mongoCollection.Find(x => x.ProductId==id).FirstOrDefaultAsync();
+            return _mapper.Map<GetByIdProductImageDto>(values);
+        }
+
         public async Task<GetByIdProductImageDto> GetGetByIdProductImageAsync(string id)
         {
             var values = await _mongoCollection.Find<ProductImage>(x => x.ProductImageId == id).FirstOrDefaultAsync();

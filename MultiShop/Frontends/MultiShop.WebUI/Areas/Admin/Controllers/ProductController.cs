@@ -87,7 +87,7 @@ namespace MultiShop.WebUI.Areas.Admin.Controllers
             var response = await client.PostAsync("https://localhost:7070/api/Products", content);
             if (response.IsSuccessStatusCode)
             {
-                return RedirectToAction("Index", "Product", new { area = "Admin" });
+                return RedirectToAction("ProductListWithCategory", "Product", new { area = "Admin" });
             }
             return View();
         }
@@ -99,7 +99,7 @@ namespace MultiShop.WebUI.Areas.Admin.Controllers
             var response = await client.DeleteAsync("https://localhost:7070/api/Products?id=" + id);
             if (response.IsSuccessStatusCode)
             {
-                return RedirectToAction("Index", "Product", new { area = "Admin" });
+                return RedirectToAction("ProductListWithCategory", "Product", new { area = "Admin" });
             }
             return View();
         }
@@ -148,7 +148,7 @@ namespace MultiShop.WebUI.Areas.Admin.Controllers
             var response = await client.PutAsync("https://localhost:7070/api/Products/", stringContent);
             if (response.IsSuccessStatusCode)
             {
-                return RedirectToAction("Index", "Product", new { area = "Admin" });
+                return RedirectToAction("ProductListWithCategory", "Product", new { area = "Admin" });
             }
             return View();
         }

@@ -25,6 +25,7 @@
                         <th>Açıklama</th>
                         <th>Sil</th>
                         <th>Güncelle</th>
+                        <th>Ürün Görselleri</th>
                     </tr>
                 </thead>
                 <tfoot>
@@ -37,6 +38,7 @@
                         <th>Açıklama</th>
                         <th>Sil</th>
                         <th>Güncelle</th>
+                        <th>Ürün Görselleri</th>
                     </tr>
                 </tfoot>
                 <tbody>
@@ -51,7 +53,8 @@
                             <td>@item.CategoryName</td>
                             <td>@item.ProductDescription</td>
                             <td><a href="/Admin/Product/DeleteProduct/@item.ProductId" class="btn btn-danger"><i class="fa fa-trash" aria-hidden="true"></i></a></td>
-                            <td><a href="/Admin/Product/UpdateProduct/@item.ProductId" class="btn btn-info"><i class="fas fa-edit"></i></a></td>
+                            <td><a href="/Admin/Product/UpdateProduct/@item.ProductId" class="btn btn-warning"><i class="fas fa-edit"></i></a></td>
+                            <td><a href="/Admin/ProductImage/ProductImageDetail/@item.ProductId" class="btn btn-primary"><i class="fas fa-file-image"></i></a></td>
                         </tr>
                     }
                 </tbody>
