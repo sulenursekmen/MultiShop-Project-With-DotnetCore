@@ -1,6 +1,7 @@
 ﻿using AutoMapper;
 using MongoDB.Driver;
 using MultiShop.Catalog.Dtos.ProductDetailDtos;
+using MultiShop.Catalog.Dtos.ProductImageDtos;
 using MultiShop.Catalog.Entities;
 using MultiShop.Catalog.Settings;
 
@@ -34,6 +35,12 @@ namespace MultiShop.Catalog.Services.ProductDetailServices
         {
             var values = await _mongoCollection.Find(x => true).ToListAsync();
             return _mapper.Map<List<ResultProductDetailDto>>(values);
+        }
+
+        public async Task<GetByIdProductDetailDto> GetByProductIdProductDetailAsync(string id)
+        {
+            var values = await _mongoCollection.Find(x => x.ProductId == id).FirstOrDefaultAsync();
+            return _mapper.Map<GetByIdProductDetailDto>(values);
         }
 
         public async Task<GetByIdProductDetailDto> GetGetByIdProductDetailAsync(string id)

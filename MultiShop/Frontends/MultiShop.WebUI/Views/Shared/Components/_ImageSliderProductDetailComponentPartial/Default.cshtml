@@ -1,17 +1,17 @@
 ﻿@model GetByIdProductImageDto
+
 <div class="col-lg-5 mb-30">
     <div id="product-carousel" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner bg-light">
             <div class="carousel-item active">
-                <img class="w-100 h-100" src="@Model.Image1" alt="Image">
+                <img class="w-100 h-100" src="@(Model?.Image1 ?? "https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-image-1024.png")" alt="Image">
             </div>
             <div class="carousel-item">
-                <img class="w-100 h-100" src="@Model.Image2" alt="Image">
+                <img class="w-100 h-100" src="@(Model?.Image2 ?? "https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-image-1024.png")" alt="Image">
             </div>
             <div class="carousel-item">
-                <img class="w-100 h-100" src="@Model.Image3" alt="Image">
+                <img class="w-100 h-100" src="@(Model?.Image3 ?? "https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-image-1024.png")" alt="Image">
             </div>
-           
         </div>
         <a class="carousel-control-prev" href="#product-carousel" data-slide="prev">
             <i class="fa fa-2x fa-angle-left text-dark"></i>

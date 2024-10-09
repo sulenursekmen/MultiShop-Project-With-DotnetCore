@@ -1,0 +1,29 @@
+﻿
+@model UpdateProductDetailDto
+@{
+    ViewData["Title"] = "AddOrUpdateProductDetail";
+    Layout = "~/Areas/Admin/Views/AdminLayout/Index.cshtml";
+}
+
+<div class="card shadow mb-4">
+    <div class="card-header py-3">
+        <h6 class="m-0 font-weight-bold text-primary">Ürün Detayları Ekleme/Güncelleme Sayfası</h6>
+    </div>
+    <div class="card-body">
+        <div class="table-responsive">
+            <form method="post" enctype="multipart/form-data">
+                <input type="hidden" asp-for="ProductDetailId" class="form-control" />
+                <input type="hidden" asp-for="ProductId" class="form-control" />
+
+                <label>Açıklama</label>
+                <input type="text" class="form-control" asp-for="ProductDescription"  />
+                <br />
+
+                <label>Ürün Bilgisi</label>
+                <input type="text" class="form-control" asp-for="ProductInfo" />
+                <br />
+                <button class="btn btn-primary">Ekle/Güncelle</button>
+            </form>
+        </div>
+    </div>
+</div>
