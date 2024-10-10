@@ -66,6 +66,18 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2F0ZWdvcnlcVXBkYXRlQ2F0ZWdvcnkuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/sulen/Desktop/MultiShop-Project/MultiShop-Project/MultiShop/Frontends/MultiShop.WebUI/Areas/Admin/Views/Comment/CreateComment.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ29tbWVudFxDcmVhdGVDb21tZW50LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sulen/Desktop/MultiShop-Project/MultiShop-Project/MultiShop/Frontends/MultiShop.WebUI/Areas/Admin/Views/Comment/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ29tbWVudFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sulen/Desktop/MultiShop-Project/MultiShop-Project/MultiShop/Frontends/MultiShop.WebUI/Areas/Admin/Views/Comment/UpdateComment.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ29tbWVudFxVcGRhdGVDb21tZW50LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/sulen/Desktop/MultiShop-Project/MultiShop-Project/MultiShop/Frontends/MultiShop.WebUI/Areas/Admin/Views/FeatureSlider/CreateFeatureSlider.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcRmVhdHVyZVNsaWRlclxDcmVhdGVGZWF0dXJlU2xpZGVyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -172,6 +184,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/sulen/Desktop/MultiShop-Project/MultiShop-Project/MultiShop/Frontends/MultiShop.WebUI/Views/Default/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVmYXVsdFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sulen/Desktop/MultiShop-Project/MultiShop-Project/MultiShop/Frontends/MultiShop.WebUI/Views/ProductList/AddComment.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdExpc3RcQWRkQ29tbWVudC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/sulen/Desktop/MultiShop-Project/MultiShop-Project/MultiShop/Frontends/MultiShop.WebUI/Views/ProductList/Index.cshtml]

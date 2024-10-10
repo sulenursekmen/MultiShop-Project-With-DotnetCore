@@ -93,7 +93,6 @@ C:\Users\sulen\Desktop\MultiShop-Project\MultiShop-Project\MultiShop\Frontends\M
 C:\Users\sulen\Desktop\MultiShop-Project\MultiShop-Project\MultiShop\Frontends\MultiShop.WebUI\bin\Debug\net8.0\System.Reflection.MetadataLoadContext.dll
 C:\Users\sulen\Desktop\MultiShop-Project\MultiShop-Project\MultiShop\Frontends\MultiShop.WebUI\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\sulen\Desktop\MultiShop-Project\MultiShop-Project\MultiShop\Frontends\MultiShop.WebUI\bin\Debug\net8.0\System.Security.Permissions.dll
-C:\Users\sulen\Desktop\MultiShop-Project\MultiShop-Project\MultiShop\Frontends\MultiShop.WebUI\bin\Debug\net8.0\System.Text.Json.dll
 C:\Users\sulen\Desktop\MultiShop-Project\MultiShop-Project\MultiShop\Frontends\MultiShop.WebUI\bin\Debug\net8.0\System.Windows.Extensions.dll
 C:\Users\sulen\Desktop\MultiShop-Project\MultiShop-Project\MultiShop\Frontends\MultiShop.WebUI\bin\Debug\net8.0\af\Humanizer.resources.dll
 C:\Users\sulen\Desktop\MultiShop-Project\MultiShop-Project\MultiShop\Frontends\MultiShop.WebUI\bin\Debug\net8.0\ar\Humanizer.resources.dll
@@ -276,3 +275,7 @@ C:\Users\sulen\Desktop\MultiShop-Project\MultiShop-Project\MultiShop\Frontends\M
 C:\Users\sulen\Desktop\MultiShop-Project\MultiShop-Project\MultiShop\Frontends\MultiShop.WebUI\bin\Debug\net8.0\MultiShop.Catalog.dll
 C:\Users\sulen\Desktop\MultiShop-Project\MultiShop-Project\MultiShop\Frontends\MultiShop.WebUI\bin\Debug\net8.0\MultiShop.Catalog.pdb
 C:\Users\sulen\Desktop\MultiShop-Project\MultiShop-Project\MultiShop\Frontends\MultiShop.WebUI\obj\Debug\net8.0\MultiShop.WebUI.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\sulen\Desktop\MultiShop-Project\MultiShop-Project\MultiShop\Frontends\MultiShop.WebUI\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\sulen\Desktop\MultiShop-Project\MultiShop-Project\MultiShop\Frontends\MultiShop.WebUI\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\sulen\Desktop\MultiShop-Project\MultiShop-Project\MultiShop\Frontends\MultiShop.WebUI\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+C:\Users\sulen\Desktop\MultiShop-Project\MultiShop-Project\MultiShop\Frontends\MultiShop.WebUI\bin\Debug\net8.0\System.Formats.Asn1.dll

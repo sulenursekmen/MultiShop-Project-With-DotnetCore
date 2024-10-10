@@ -1,0 +1,54 @@
+﻿@model List<ResultCommentDto>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Areas/Admin/Views/AdminLayout/Index.cshtml";
+    int count = 0;
+}
+<div class="card shadow mb-4">
+    <div class="card-header py-3 d-flex justify-content-between align-items-center">
+        <h6 class="m-0 font-weight-bold text-primary">@ViewBag.v3</h6>
+    </div>
+    <div class="card-body">
+        <div class="table-responsive">
+            <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Kullanıcı Adı Soyadı</th>
+                        <th>Yorum</th>
+                        <th>Tarih</th>
+                        <th>Durum</th>
+                        <th>Sil</th>
+                        <th>Güncelle</th>
+                    </tr>
+                </thead>
+                <tfoot>
+                    <tr>
+                        <th>#</th>
+                        <th>Kullanıcı Adı Soyadı</th>
+                        <th>Yorum</th>
+                        <th>Tarih</th>
+                        <th>Durum</th>
+                        <th>Sil</th>
+                        <th>Güncelle</th>
+                    </tr>
+                </tfoot>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        count++;
+                        <tr>
+                            <td scope="row">@count</td>
+                            <td>@item.FullName</td>
+                            <td>@item.CommentDetail</td>
+                            <td>@item.CreatedDate.ToShortDateString()</td>
+                            <td>@item.Status</td>
+                            <td><a href="/Admin/Comment/DeleteComment/@item.UserCommentId" class="btn btn-danger"><i class="fa fa-trash" aria-hidden="true"></i></a></td>
+                            <td><a href="/Admin/Comment/UpdateComment/@item.UserCommentId" class="btn btn-info"><i class="fas fa-edit"></i></a></td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

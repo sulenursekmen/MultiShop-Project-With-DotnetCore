@@ -1,0 +1,32 @@
+﻿<div class="col-md-6">
+    <h4 class="mb-4">Yorum Yap</h4>
+    <small>Lütfen gerekli alanları doldurunuz *</small>
+    <div class="d-flex my-3">
+        <p class="mb-0 mr-2">Puanınız * :</p>
+        <div class="text-primary">
+            <i class="far fa-star"></i>
+            <i class="far fa-star"></i>
+            <i class="far fa-star"></i>
+            <i class="far fa-star"></i>
+            <i class="far fa-star"></i>
+        </div>
+    </div>
+    <form method="post" asp-action="AddComment" asp-controller="ProductList">
+        <input type="hidden" name="ProductId" value="@ViewBag.pid"/>
+        <div class="form-group">
+            <label for="name">Adın *</label>
+            <input type="text" class="form-control" id="name" name="FullName">
+        </div>
+        <div class="form-group">
+            <label for="email">E-posta *</label>
+            <input type="email" class="form-control" id="email" name="Email">
+        </div>
+        <div class="form-group">
+            <label for="message">Yorumun *</label>
+            <textarea id="message" cols="30" rows="5" class="form-control" name="CommentDetail"></textarea>
+        </div>
+        <div class="form-group mb-0">
+            <input type="submit" value="Yorum Yap" class="btn btn-primary px-3">
+        </div>
+    </form>
+</div>

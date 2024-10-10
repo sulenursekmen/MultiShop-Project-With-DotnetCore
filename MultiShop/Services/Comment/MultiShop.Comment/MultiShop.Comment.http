@@ -1,0 +1,6 @@
+@MultiShop.Comment_HostAddress = http://localhost:5207
+
+GET {{MultiShop.Comment_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
