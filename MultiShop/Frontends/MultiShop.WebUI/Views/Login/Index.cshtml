@@ -1,0 +1,43 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/UILayout/_UILayout.cshtml";
+}
+
+<section>
+    <div class="mask d-flex align-items-center h-100">
+        <div class="container h-100">
+            <div class="row d-flex justify-content-center align-items-center h-100">
+                <div class="col-12 col-md-9 col-lg-7 col-xl-6">
+                    <div class="card" style="border-radius: 15px;">
+                        <div class="card-body p-5">
+                            <h2 class=" text-center mb-5">Giriş Yap</h2>
+                            <form method="post">
+                                <div class="form-outline mb-4">
+                                    <label class="form-label font-weight-bold">Kullanıcı Adı</label>
+                                    <input type="text" class="form-control form-control-lg" required  />
+                                </div>
+
+                                <div class="form-outline mb-4">
+                                    <label class="form-label font-weight-bold">Şifre</label>
+                                    <input type="password" class="form-control form-control-lg" required/>
+                                </div>
+
+                                <div class="d-flex justify-content-center">
+                                    <button type="submit" class="btn btn-primary btn-block btn-lg">
+                                        Giriş Yap
+                                    </button>
+                                </div>
+
+                                <p class="text-center text-muted mt-5 mb-0">
+                                    Hesabınız yok mu? <a href="/Register/Index" class="fw-bold text-body"><u href="/Register/Index">Kayıt Ol</u></a>
+                                </p>
+
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

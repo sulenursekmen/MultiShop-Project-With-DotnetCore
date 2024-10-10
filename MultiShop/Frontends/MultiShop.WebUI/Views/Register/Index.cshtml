@@ -1,0 +1,76 @@
+﻿@model CreateRegisterDto
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/UILayout/_UILayout.cshtml";
+}
+
+<section>
+    <div class="mask d-flex align-items-center h-100">
+        <div class="container h-100">
+            <div class="row d-flex justify-content-center align-items-center h-100">
+                <div class="col-12 col-md-9 col-lg-7 col-xl-6">
+                    <div class="card" style="border-radius: 15px;">
+                        <div class="card-body p-5">
+                            <h2 class="text-center mb-5">Kayıt Ol</h2>
+                            <form method="post">
+                                <div class="form-outline mb-4">
+                                    <label class="form-label font-weight-bold">Adınız</label>
+                                    <input type="text" class="form-control form-control-lg" asp-for="Name" />
+                                </div>
+
+                                <div class="form-outline mb-4">
+                                    <label class="form-label font-weight-bold">Soyadınız</label>
+                                    <input type="text" class="form-control form-control-lg" asp-for="Surname" />
+                                </div>
+
+                                <div class="form-outline mb-4">
+                                    <label class="form-label font-weight-bold">E-Posta</label>
+                                    <input type="email" class="form-control form-control-lg"
+                                           required pattern="[a-z0-9._%+-]+@@[a-z0-9.-]+\.[a-z]{2,}$" asp-for="Email" />
+                                </div>
+
+                                <div class="form-outline mb-4">
+                                    <label class="form-label font-weight-bold">Kullanıcı Adı</label>
+                                    <input type="text" class="form-control form-control-lg" required asp-for="UserName" />
+                                </div>
+
+                                <div class="form-outline mb-4">
+                                    <label class="form-label font-weight-bold">Şifre</label>
+                                    <input type="password" class="form-control form-control-lg" asp-for="Password" />
+                                </div>
+
+                                <div class="form-outline mb-4">
+                                    <label class="form-label font-weight-bold">Şifre Tekrarı</label>
+                                    <input type="password" class="form-control form-control-lg" asp-for="ConfirmPassword" />
+                                </div>
+
+                                <div class=" form-check d-flex justify-content-start mb-4">
+                                    <input class="form-check-input me-2" type="checkbox" value="" />
+                                    <label class="form-check-label" for="termsCheckbox">
+                                        Tüm şartları kabul ediyorum <a href="#!" class="text-body"><u>Hizmet Koşulları</u></a>
+                                    </label>
+                                </div>
+
+                                <div class="d-flex justify-content-center">
+                                    <button type="submit" class="btn btn-primary btn-block btn-lg">
+                                        Kayıt ol
+                                    </button>
+                                </div>
+
+                                <label class="small form-label pt-3 text-center d-block">
+                                    Kayıt Ol'a basarak <a href="#" class="text-body"><u>Üyelik Koşulları</u></a>'nı kabul ediyorum
+                                </label>
+
+                                <p class="text-center text-muted mt-5 mb-0">
+                                    Zaten bir hesabınız var mı? <a href="/Login/Index" class="fw-bold text-body"><u href="/Login/Index">Giriş Yap</u></a>
+                                </p>
+
+                            </form>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
