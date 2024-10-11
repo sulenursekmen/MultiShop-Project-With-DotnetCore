@@ -1,4 +1,4 @@
-﻿
+﻿@model CreateLoginDto
 @{
     ViewData["Title"] = "Index";
     Layout = "~/Views/UILayout/_UILayout.cshtml";
@@ -15,12 +15,12 @@
                             <form method="post">
                                 <div class="form-outline mb-4">
                                     <label class="form-label font-weight-bold">Kullanıcı Adı</label>
-                                    <input type="text" class="form-control form-control-lg" required  />
+                                    <input type="text" class="form-control form-control-lg" required asp-for="Username" />
                                 </div>
 
                                 <div class="form-outline mb-4">
                                     <label class="form-label font-weight-bold">Şifre</label>
-                                    <input type="password" class="form-control form-control-lg" required/>
+                                    <input type="password" class="form-control form-control-lg" required asp-for="Password"/>
                                 </div>
 
                                 <div class="d-flex justify-content-center">
