@@ -35,6 +35,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MultiShop.IdentityServer", 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Notes", "Notes", "{3C9B953F-0117-4A43-8ABA-F7D0D93E5CAB}"
 	ProjectSection(SolutionItems) = preProject
+		OcelotCodeExample.txt = OcelotCodeExample.txt
+		OcelotLink.txt = OcelotLink.txt
 		PortNumbers.txt = PortNumbers.txt
 		TokenUIShowing.txt = TokenUIShowing.txt
 	EndProjectSection
@@ -64,6 +66,20 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Comment", "Comment", "{91C8D22E-4063-48FC-BDC9-88B9C49F0848}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MultiShop.Comment", "Services\Comment\MultiShop.Comment\MultiShop.Comment.csproj", "{FBA53B8D-6593-4D48-AF6D-81E00B0DD972}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ApiGateway", "ApiGateway", "{C920B86E-6D59-48F4-825B-06B577BD3B17}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RapidApi", "RapidApi", "{4729DF44-FCB1-4419-AFFF-DE587847F780}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiShop.OcelotGateway", "ApiGateway\MultiShop.OcelotGateway\MultiShop.OcelotGateway.csproj", "{1D258654-6817-4448-9866-C1F0DB3AB371}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Payment", "Payment", "{164BC708-D5C4-4E50-B3E5-F4F0F3F444EA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiShop.Payment", "Services\Payment\MultiShop.Payment\MultiShop.Payment.csproj", "{0CF97EBB-0E45-44E6-B494-5CE903686017}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Images", "Images", "{19C3BE2E-1238-4C2F-A3EE-1844E170218C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiShop.Images", "Services\Images\MultiShop.Images\MultiShop.Images.csproj", "{A4B0DEAD-F007-48A7-9220-3C7CD1E809F7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -135,6 +151,18 @@ Global
 		{FBA53B8D-6593-4D48-AF6D-81E00B0DD972}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FBA53B8D-6593-4D48-AF6D-81E00B0DD972}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FBA53B8D-6593-4D48-AF6D-81E00B0DD972}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D258654-6817-4448-9866-C1F0DB3AB371}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D258654-6817-4448-9866-C1F0DB3AB371}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D258654-6817-4448-9866-C1F0DB3AB371}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D258654-6817-4448-9866-C1F0DB3AB371}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0CF97EBB-0E45-44E6-B494-5CE903686017}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CF97EBB-0E45-44E6-B494-5CE903686017}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CF97EBB-0E45-44E6-B494-5CE903686017}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CF97EBB-0E45-44E6-B494-5CE903686017}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4B0DEAD-F007-48A7-9220-3C7CD1E809F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4B0DEAD-F007-48A7-9220-3C7CD1E809F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4B0DEAD-F007-48A7-9220-3C7CD1E809F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4B0DEAD-F007-48A7-9220-3C7CD1E809F7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -165,6 +193,11 @@ Global
 		{C07C0208-6CCF-4592-97D2-8E222AD99B71} = {3F4CB4AC-256F-42C2-AD9E-2A275842513B}
 		{91C8D22E-4063-48FC-BDC9-88B9C49F0848} = {8349C496-64E3-41B5-AEA3-11DEA14C444A}
 		{FBA53B8D-6593-4D48-AF6D-81E00B0DD972} = {91C8D22E-4063-48FC-BDC9-88B9C49F0848}
+		{1D258654-6817-4448-9866-C1F0DB3AB371} = {C920B86E-6D59-48F4-825B-06B577BD3B17}
+		{164BC708-D5C4-4E50-B3E5-F4F0F3F444EA} = {8349C496-64E3-41B5-AEA3-11DEA14C444A}
+		{0CF97EBB-0E45-44E6-B494-5CE903686017} = {164BC708-D5C4-4E50-B3E5-F4F0F3F444EA}
+		{19C3BE2E-1238-4C2F-A3EE-1844E170218C} = {8349C496-64E3-41B5-AEA3-11DEA14C444A}
+		{A4B0DEAD-F007-48A7-9220-3C7CD1E809F7} = {19C3BE2E-1238-4C2F-A3EE-1844E170218C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A7454A06-14AB-407E-A57B-E27CA78CC935}
