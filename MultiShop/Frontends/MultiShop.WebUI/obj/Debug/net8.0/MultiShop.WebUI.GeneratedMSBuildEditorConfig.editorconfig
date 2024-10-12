@@ -190,6 +190,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/sulen/Desktop/MultiShop-Project/MultiShop-Project/MultiShop/Frontends/MultiShop.WebUI/Views/Login/SignIn.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cU2lnbkluLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/sulen/Desktop/MultiShop-Project/MultiShop-Project/MultiShop/Frontends/MultiShop.WebUI/Views/ProductList/AddComment.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdExpc3RcQWRkQ29tbWVudC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -320,6 +324,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/sulen/Desktop/MultiShop-Project/MultiShop-Project/MultiShop/Frontends/MultiShop.WebUI/Views/ShoppingCart/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hvcHBpbmdDYXJ0XEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sulen/Desktop/MultiShop-Project/MultiShop-Project/MultiShop/Frontends/MultiShop.WebUI/Views/TokenTest/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVG9rZW5UZXN0XEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/sulen/Desktop/MultiShop-Project/MultiShop-Project/MultiShop/Frontends/MultiShop.WebUI/Views/UILayout/_UILayout.cshtml]

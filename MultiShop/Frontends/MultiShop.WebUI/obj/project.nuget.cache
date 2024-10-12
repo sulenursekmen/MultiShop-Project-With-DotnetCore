@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Q7OfTqwvTwCRmpxoiDzk2KG5FfWIt81IxOLEaWkWYIdYmL9LTG2pg1Hm+02QgK+49+xCZBvT4/NtW6aORywHFg==",
+  "dgSpecHash": "gZD6c5/nUtutNsuAL2y5jbK+kNdRAnJ0cp/tgS7FhzFFY59TOKggt6jYzi3Sipd2svtXuOC7Q3cBHH4/cANypw==",
   "success": true,
   "projectFilePath": "C:\\Users\\sulen\\Desktop\\MultiShop-Project\\MultiShop-Project\\MultiShop\\Frontends\\MultiShop.WebUI\\MultiShop.WebUI.csproj",
   "expectedPackageFiles": [
@@ -59,6 +59,7 @@
     "C:\\Users\\sulen\\.nuget\\packages\\humanizer.core.zh-cn\\2.14.1\\humanizer.core.zh-cn.2.14.1.nupkg.sha512",
     "C:\\Users\\sulen\\.nuget\\packages\\humanizer.core.zh-hans\\2.14.1\\humanizer.core.zh-hans.2.14.1.nupkg.sha512",
     "C:\\Users\\sulen\\.nuget\\packages\\humanizer.core.zh-hant\\2.14.1\\humanizer.core.zh-hant.2.14.1.nupkg.sha512",
+    "C:\\Users\\sulen\\.nuget\\packages\\identitymodel\\7.0.0\\identitymodel.7.0.0.nupkg.sha512",
     "C:\\Users\\sulen\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\8.0.10\\microsoft.aspnetcore.authentication.jwtbearer.8.0.10.nupkg.sha512",
     "C:\\Users\\sulen\\.nuget\\packages\\microsoft.aspnetcore.authorization\\8.0.10\\microsoft.aspnetcore.authorization.8.0.10.nupkg.sha512",
     "C:\\Users\\sulen\\.nuget\\packages\\microsoft.aspnetcore.components\\8.0.10\\microsoft.aspnetcore.components.8.0.10.nupkg.sha512",
