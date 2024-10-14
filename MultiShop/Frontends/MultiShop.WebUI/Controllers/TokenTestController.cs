@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using MultiShop.DtoLayer.CatalogDtos.CategoryDtos;
+using MultiShop.WebUI.Services.CatalogServices.CategoryServices;
 using Newtonsoft.Json;
 using System.Net.Http.Headers;
 using System.Text.Json.Nodes;
@@ -9,10 +10,11 @@ namespace MultiShop.WebUI.Controllers
     public class TokenTestController : Controller
     {
         private readonly IHttpClientFactory _httpClientFactory;
-
-        public TokenTestController(IHttpClientFactory httpClientFactory)
+        private readonly ICategoryService _categoryService;
+        public TokenTestController(IHttpClientFactory httpClientFactory, ICategoryService categoryService)
         {
             _httpClientFactory = httpClientFactory;
+            _categoryService = categoryService;
         }
 
         public async Task<IActionResult> Index()
@@ -46,7 +48,7 @@ namespace MultiShop.WebUI.Controllers
             client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", token);
 
 
-            var responseMessage = await client.GetAsync("https://localhost:7070/api/Categories");
+            var responseMessage = await client.GetAsync("http://localhost:7070/api/Categories");
             if (responseMessage.IsSuccessStatusCode)
             {
                 var jsonData = await responseMessage.Content.ReadAsStringAsync();
@@ -54,6 +56,13 @@ namespace MultiShop.WebUI.Controllers
                 return View(values);
             }
             return View();
+        }
+
+
+        public async Task<IActionResult> Test()
+        {
+            var values=await _categoryService.GetAllCategoriesAsync();
+            return View(values);
         }
     }
 }

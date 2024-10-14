@@ -280,3 +280,5 @@ C:\Users\sulen\Desktop\MultiShop-Project\MultiShop-Project\MultiShop\Frontends\M
 C:\Users\sulen\Desktop\MultiShop-Project\MultiShop-Project\MultiShop\Frontends\MultiShop.WebUI\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
 C:\Users\sulen\Desktop\MultiShop-Project\MultiShop-Project\MultiShop\Frontends\MultiShop.WebUI\bin\Debug\net8.0\System.Formats.Asn1.dll
 C:\Users\sulen\Desktop\MultiShop-Project\MultiShop-Project\MultiShop\Frontends\MultiShop.WebUI\bin\Debug\net8.0\IdentityModel.dll
+C:\Users\sulen\Desktop\MultiShop-Project\MultiShop-Project\MultiShop\Frontends\MultiShop.WebUI\bin\Debug\net8.0\IdentityModel.AspNetCore.dll
+C:\Users\sulen\Desktop\MultiShop-Project\MultiShop-Project\MultiShop\Frontends\MultiShop.WebUI\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.OpenIdConnect.dll

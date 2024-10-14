@@ -8,7 +8,7 @@
     ".NETCoreApp,Version=v8.0": {
       "MultiShop.WebUI/1.0.0": {
         "dependencies": {
-          "IdentityModel": "7.0.0",
+          "IdentityModel.AspNetCore": "3.0.0",
           "Microsoft.AspNetCore.Authentication.JwtBearer": "8.0.10",
           "Microsoft.AspNetCore.Components.QuickGrid.EntityFrameworkAdapter": "8.0.10",
           "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": "8.0.10",
@@ -612,11 +612,27 @@
           }
         }
       },
-      "IdentityModel/7.0.0": {
+      "IdentityModel/4.5.0": {
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.3",
+          "System.Text.Encodings.Web": "7.0.0"
+        },
         "runtime": {
-          "lib/net6.0/IdentityModel.dll": {
-            "assemblyVersion": "7.0.0.0",
-            "fileVersion": "7.0.0.0"
+          "lib/net5.0/IdentityModel.dll": {
+            "assemblyVersion": "4.5.0.0",
+            "fileVersion": "4.5.0.0"
+          }
+        }
+      },
+      "IdentityModel.AspNetCore/3.0.0": {
+        "dependencies": {
+          "IdentityModel": "4.5.0",
+          "Microsoft.AspNetCore.Authentication.OpenIdConnect": "5.0.0"
+        },
+        "runtime": {
+          "lib/net5.0/IdentityModel.AspNetCore.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.0.0"
           }
         }
       },
@@ -628,6 +644,17 @@
           "lib/net8.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll": {
             "assemblyVersion": "8.0.10.0",
             "fileVersion": "8.0.1024.46804"
+          }
+        }
+      },
+      "Microsoft.AspNetCore.Authentication.OpenIdConnect/5.0.0": {
+        "dependencies": {
+          "Microsoft.IdentityModel.Protocols.OpenIdConnect": "7.1.2"
+        },
+        "runtime": {
+          "lib/net5.0/Microsoft.AspNetCore.Authentication.OpenIdConnect.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.20.52605"
           }
         }
       },
@@ -2418,12 +2445,19 @@
       "path": "humanizer.core.zh-hant/2.14.1",
       "hashPath": "humanizer.core.zh-hant.2.14.1.nupkg.sha512"
     },
-    "IdentityModel/7.0.0": {
+    "IdentityModel/4.5.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-to99aLL5Gev1GOb2gUao/UZXT/uXMyjEmHPNrf/vJI2HBD1LMCTeC4SBCe/cqMIB12V9v+eSieq7ff0lju9pOQ==",
-      "path": "identitymodel/7.0.0",
-      "hashPath": "identitymodel.7.0.0.nupkg.sha512"
+      "sha512": "sha512-8W2YtlzCpKRQt0s/pEuaVqUOibbXJA7VFEMMfCfrQB0m0O9VIJ2p/pJljtluFbvSOubmnszqxjKa2BDVgqlesg==",
+      "path": "identitymodel/4.5.0",
+      "hashPath": "identitymodel.4.5.0.nupkg.sha512"
+    },
+    "IdentityModel.AspNetCore/3.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6ttoSmcuuGir4uP7BNGkd24D6kfrYw8Rbb2VJ/LnB6hbcWki2W+QN1fDtKR3GyhALKoKhDemQvgkKmCPoilNoQ==",
+      "path": "identitymodel.aspnetcore/3.0.0",
+      "hashPath": "identitymodel.aspnetcore.3.0.0.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Authentication.JwtBearer/8.0.10": {
       "type": "package",
@@ -2431,6 +2465,13 @@
       "sha512": "sha512-rcPXghZCc82IB9U2Px1Ln5Zn3vjV4p83H/Few5T/904hBddjSz03COQ2zOGWBBvdTBY+GciAUJwgBFNWaxLfqw==",
       "path": "microsoft.aspnetcore.authentication.jwtbearer/8.0.10",
       "hashPath": "microsoft.aspnetcore.authentication.jwtbearer.8.0.10.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.Authentication.OpenIdConnect/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-YzUMJYSVWEEQmHpOhEzOcZ2/ltQ/uP1s8DHK8oaobgsjKUdIeRvEwtVQ5D6zO0vdlj4j9Mw0JD1FrZPGI07fHw==",
+      "path": "microsoft.aspnetcore.authentication.openidconnect/5.0.0",
+      "hashPath": "microsoft.aspnetcore.authentication.openidconnect.5.0.0.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Authorization/8.0.10": {
       "type": "package",
