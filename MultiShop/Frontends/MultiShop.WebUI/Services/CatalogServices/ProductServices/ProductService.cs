@@ -1,9 +1,11 @@
-﻿using MultiShop.DtoLayer.CatalogDtos.ProductDtos;
+﻿
+using MongoDB.Driver.Core.WireProtocol.Messages;
+using MultiShop.DtoLayer.CatalogDtos.ProductDtos;
 using Newtonsoft.Json;
 
 namespace MultiShop.WebUI.Services.CatalogServices.ProductServices
 {
-    public class ProductService:IProductService   
+    public class ProductService : IProductService
     {
         private readonly HttpClient _httpClient;
 
@@ -57,9 +59,13 @@ namespace MultiShop.WebUI.Services.CatalogServices.ProductServices
             return values;
         }
 
-        public Task<List<ResultProductsWithCategoryByCategoryIdDto>> GetProductsWithCategoryByCategoryIdAsync(string CategoryId)
+        public async Task<List<ResultProductsWithCategoryByCategoryIdDto>> GetProductsWithCategoryByCategoryIdAsync(string CategoryId)
         {
-            throw new NotImplementedException();
+            var responseMessage = await _httpClient.GetAsync("products/ProductListWithCategoryByCategoryId?id="+CategoryId);
+            var jsonData = await responseMessage.Content.ReadAsStringAsync();
+            var values = JsonConvert.DeserializeObject<List<ResultProductsWithCategoryByCategoryIdDto>>(jsonData);
+            return values;
+
         }
     }
 }
