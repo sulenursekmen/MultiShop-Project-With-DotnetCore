@@ -4,6 +4,7 @@ using MultiShop.WebUI.Handlers;
 using MultiShop.WebUI.Services.CatalogServices.AboutServices;
 using MultiShop.WebUI.Services.CatalogServices.BrandServices;
 using MultiShop.WebUI.Services.CatalogServices.CategoryServices;
+using MultiShop.WebUI.Services.CatalogServices.ContactServices;
 using MultiShop.WebUI.Services.CatalogServices.FeatureServices;
 using MultiShop.WebUI.Services.CatalogServices.FeatureSliderServices;
 using MultiShop.WebUI.Services.CatalogServices.OfferDiscountServices;
@@ -11,6 +12,7 @@ using MultiShop.WebUI.Services.CatalogServices.ProductDetailServices;
 using MultiShop.WebUI.Services.CatalogServices.ProductImageServices;
 using MultiShop.WebUI.Services.CatalogServices.ProductServices;
 using MultiShop.WebUI.Services.CatalogServices.SpecialOfferServices;
+using MultiShop.WebUI.Services.CommentServices;
 using MultiShop.WebUI.Services.Concrete;
 using MultiShop.WebUI.Services.Interfaces;
 using MultiShop.WebUI.Settings;
@@ -27,6 +29,7 @@ builder.Services.AddScoped<ClientCredentialTokenHandler>();
 builder.Services.AddHttpClient<IClientCredentialTokenService, ClientCredentialTokenService>();
 builder.Services.Configure<ClientSettings>(builder.Configuration.GetSection("ClientSettings"));
 builder.Services.Configure<ServiceApiSettings>(builder.Configuration.GetSection("ServiceApiSettings"));
+
 
 
 builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddCookie(JwtBearerDefaults.AuthenticationScheme, opt =>
@@ -57,6 +60,8 @@ builder.Services.AddHttpClient<IUserService, UserService>(opt=>
     opt.BaseAddress = new Uri(values.IdentityServerUrl);
 
 }).AddHttpMessageHandler<ResourceOwnerPasswordTokenHandler>();
+
+#region Catalog Microservice
 
 builder.Services.AddHttpClient<ICategoryService, CategoryService>(opt =>
 {
@@ -107,6 +112,20 @@ builder.Services.AddHttpClient<IProductImageService, ProductImageService>(opt =>
 {
     opt.BaseAddress = new Uri($"{values.OcelotUrl}/{values.Catalog.Path}");
 }).AddHttpMessageHandler<ClientCredentialTokenHandler>();
+
+builder.Services.AddHttpClient<IContactService, ContactService>(opt =>
+{
+    opt.BaseAddress = new Uri($"{values.OcelotUrl}/{values.Catalog.Path}");
+}).AddHttpMessageHandler<ClientCredentialTokenHandler>();
+#endregion
+
+#region Comment Microservice
+
+builder.Services.AddHttpClient<IUserCommentService, UserCommentService>(opt =>
+{
+    opt.BaseAddress = new Uri($"{values.OcelotUrl}/{values.Comment.Path}");
+}).AddHttpMessageHandler<ClientCredentialTokenHandler>();
+#endregion
 
 var app = builder.Build();
 

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MultiShop.OcelotGateway")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4512d9bb633ae3eb4e6f49d05976c0bf75971ca0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6fce3a018520b67a16af58d98f88ac8ab013a627")]
 [assembly: System.Reflection.AssemblyProductAttribute("MultiShop.OcelotGateway")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MultiShop.OcelotGateway")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

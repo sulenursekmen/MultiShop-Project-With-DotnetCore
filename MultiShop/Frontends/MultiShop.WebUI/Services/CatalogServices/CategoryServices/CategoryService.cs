@@ -30,7 +30,7 @@ namespace MultiShop.WebUI.Services.CatalogServices.CategoryServices
 
             var responseMessage = await _httpClient.GetAsync("categories");
             var jsonData = await responseMessage.Content.ReadAsStringAsync();
-            var values = JsonConvert.DeserializeObject<List<ResultCategoryDto>>(jsonData); ; ;
+            var values = JsonConvert.DeserializeObject<List<ResultCategoryDto>>(jsonData);
             return values;
         }
 
