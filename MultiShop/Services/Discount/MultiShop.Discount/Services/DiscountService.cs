@@ -56,9 +56,22 @@ namespace MultiShop.Discount.Services
             parameters.Add("@couponId", id);
             using (var con = _dapperContext.CreateConnection())
             {
-                var values = await con.QueryFirstOrDefaultAsync<GetByIdDiscountCouponDto>(query,parameters);
+                var values = await con.QueryFirstOrDefaultAsync<GetByIdDiscountCouponDto>(query, parameters);
                 return values;
             }
+        }
+
+        public async Task<ResultDiscountCouponDto> GetCodeDetailByCodeAsync(string code)
+        {
+            string query = "Select * From Coupons Where Code=@code";
+            var parameters = new DynamicParameters();
+            parameters.Add("@code", code);
+            using (var con = _dapperContext.CreateConnection())
+            {
+                var values = await con.QueryFirstOrDefaultAsync<ResultDiscountCouponDto>(query, parameters);
+                return values;
+            }
+
         }
 
         public async Task UpdateDiscountCouponAsync(UpdateDiscountCouponDto updateCouponDto)
@@ -75,5 +88,18 @@ namespace MultiShop.Discount.Services
                 await con.ExecuteAsync(query, parameters);
             }
         }
+
+        public async Task<dynamic> GetDiscountCouponCountRateAsync(string code)
+        {
+            string query = "Select Rate From Coupons Where Code=@code";
+            var parameters = new DynamicParameters();
+            parameters.Add("@code", code);
+            using (var con = _dapperContext.CreateConnection())
+            {
+                var values = await con.QueryFirstOrDefaultAsync<dynamic>(query, parameters);
+                return values;
+            }
+        }
+
     }
 }
