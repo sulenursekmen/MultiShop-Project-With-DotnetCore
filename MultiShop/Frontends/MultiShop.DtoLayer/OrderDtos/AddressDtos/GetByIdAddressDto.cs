@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MultiShop.Order.Application.Features.CQRS.Results.AddressResults
+namespace MultiShop.DtoLayer.OrderDtos.AddressDtos
 {
-    public class GetAddressByIdQueryResult
+    public class GetByIdAddressDto
     {
         public int AddressId { get; set; }
         public string UserId { get; set; }

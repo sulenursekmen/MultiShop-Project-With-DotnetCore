@@ -100,6 +100,5 @@ namespace MultiShop.Discount.Services
                 return values;
             }
         }
-
     }
 }

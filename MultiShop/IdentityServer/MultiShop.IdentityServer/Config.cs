@@ -82,6 +82,7 @@ namespace MultiShop.IdentityServer
                     "PaymentFullPermission",
                     "ImageFullPermission",
                     "DiscountFullPermission",
+                    "OrderFullPermission",
                     IdentityServerConstants.LocalApi.ScopeName,
                     IdentityServerConstants.StandardScopes.OpenId,
                     IdentityServerConstants.StandardScopes.Email,
