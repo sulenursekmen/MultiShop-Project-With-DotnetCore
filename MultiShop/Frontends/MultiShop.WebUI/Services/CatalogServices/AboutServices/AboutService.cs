@@ -26,7 +26,7 @@ namespace MultiShop.WebUI.Services.CatalogServices.AboutServices
         {
             var responseMessage = await _httpClient.GetAsync("abouts");
             var jsonData = await responseMessage.Content.ReadAsStringAsync();
-            var values = JsonConvert.DeserializeObject<List<ResultAboutDto>>(jsonData); ; ;
+            var values = JsonConvert.DeserializeObject<List<ResultAboutDto>>(jsonData);
             return values;
         }
 

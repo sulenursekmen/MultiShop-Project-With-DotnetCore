@@ -1,0 +1,15 @@
+C:\Users\sulen\Desktop\MultiShop-Project\MultiShop-Project\MultiShop\Services\Cargo\MultiShop.Cargo.EntityLayer\bin\Debug\net8.0\MultiShop.Cargo.EntityLayer.deps.json
+C:\Users\sulen\Desktop\MultiShop-Project\MultiShop-Project\MultiShop\Services\Cargo\MultiShop.Cargo.EntityLayer\bin\Debug\net8.0\MultiShop.Cargo.EntityLayer.runtimeconfig.json
+C:\Users\sulen\Desktop\MultiShop-Project\MultiShop-Project\MultiShop\Services\Cargo\MultiShop.Cargo.EntityLayer\bin\Debug\net8.0\MultiShop.Cargo.EntityLayer.dll
+C:\Users\sulen\Desktop\MultiShop-Project\MultiShop-Project\MultiShop\Services\Cargo\MultiShop.Cargo.EntityLayer\bin\Debug\net8.0\MultiShop.Cargo.EntityLayer.pdb
+C:\Users\sulen\Desktop\MultiShop-Project\MultiShop-Project\MultiShop\Services\Cargo\MultiShop.Cargo.EntityLayer\obj\Debug\net8.0\MultiShop.Cargo.EntityLayer.csproj.AssemblyReference.cache
+C:\Users\sulen\Desktop\MultiShop-Project\MultiShop-Project\MultiShop\Services\Cargo\MultiShop.Cargo.EntityLayer\obj\Debug\net8.0\MultiShop.Cargo.EntityLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sulen\Desktop\MultiShop-Project\MultiShop-Project\MultiShop\Services\Cargo\MultiShop.Cargo.EntityLayer\obj\Debug\net8.0\MultiShop.Cargo.EntityLayer.AssemblyInfoInputs.cache
+C:\Users\sulen\Desktop\MultiShop-Project\MultiShop-Project\MultiShop\Services\Cargo\MultiShop.Cargo.EntityLayer\obj\Debug\net8.0\MultiShop.Cargo.EntityLayer.AssemblyInfo.cs
+C:\Users\sulen\Desktop\MultiShop-Project\MultiShop-Project\MultiShop\Services\Cargo\MultiShop.Cargo.EntityLayer\obj\Debug\net8.0\MultiShop.Cargo.EntityLayer.csproj.CoreCompileInputs.cache
+C:\Users\sulen\Desktop\MultiShop-Project\MultiShop-Project\MultiShop\Services\Cargo\MultiShop.Cargo.EntityLayer\obj\Debug\net8.0\MultiShop.Cargo.EntityLayer.sourcelink.json
+C:\Users\sulen\Desktop\MultiShop-Project\MultiShop-Project\MultiShop\Services\Cargo\MultiShop.Cargo.EntityLayer\obj\Debug\net8.0\MultiShop.Cargo.EntityLayer.dll
+C:\Users\sulen\Desktop\MultiShop-Project\MultiShop-Project\MultiShop\Services\Cargo\MultiShop.Cargo.EntityLayer\obj\Debug\net8.0\refint\MultiShop.Cargo.EntityLayer.dll
+C:\Users\sulen\Desktop\MultiShop-Project\MultiShop-Project\MultiShop\Services\Cargo\MultiShop.Cargo.EntityLayer\obj\Debug\net8.0\MultiShop.Cargo.EntityLayer.pdb
+C:\Users\sulen\Desktop\MultiShop-Project\MultiShop-Project\MultiShop\Services\Cargo\MultiShop.Cargo.EntityLayer\obj\Debug\net8.0\MultiShop.Cargo.EntityLayer.genruntimeconfig.cache
+C:\Users\sulen\Desktop\MultiShop-Project\MultiShop-Project\MultiShop\Services\Cargo\MultiShop.Cargo.EntityLayer\obj\Debug\net8.0\ref\MultiShop.Cargo.EntityLayer.dll

@@ -54,6 +54,14 @@ namespace MultiShop.WebUI.Services.BasketServices
             return values;
         }
 
+        public async Task<BasketTotalDto> GetByUserIdBasket(string userId)
+        {
+            var responseMessage = await _httpClient.GetAsync("baskets?userId="+userId);
+            var jsonData = await responseMessage.Content.ReadAsStringAsync();
+            var values = JsonConvert.DeserializeObject<BasketTotalDto>(jsonData);
+            return values;
+        }
+
         public async Task<bool> RemoveBasketItem(string productId)
         {
             var values = await GetBasket();
