@@ -1,8 +1,54 @@
-﻿
+﻿@model List<ResultOrderingByUserIdDto>
 @{
     ViewData["Title"] = "MyOrderList";
     Layout = "~/Areas/User/Views/UserLayout/Index.cshtml";
+    string orderCode = "MLTSHP2024";
 }
-@* 
+@*
 <h4>@ViewBag.FullName</h4>
  *@
+
+<div class="card shadow mb-4">
+    <div class="card-header py-3 d-flex justify-content-between align-items-center">
+        <h6 class="m-0 font-weight-bold text-dark">Siparişlerim</h6>
+    </div>
+    <div class="card-body">
+        <div class="table-responsive">
+            <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                <thead>
+                    <tr>
+                        <th># Sipariş Numarası </th>
+                        <th>Tutar</th>
+                        <th>Tarih</th>
+                        <th>Sipariş Detayı</th>
+                        <th>Sil</th>
+                    </tr>
+                </thead>
+                <tfoot>
+                    <tr>
+                        <th># Sipariş Numarası </th>
+                        <th>Tutar</th>
+                        <th>Tarih</th>
+                        <th>Sipariş Detayı</th>
+                        <th>Sil</th>
+                    </tr>
+                </tfoot>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td scope="row"> @($"{orderCode}{item.OrderingId}")</td>
+                            <td>@item.TotalPrice</td>
+                            <td>@item.OrderDate.ToString("dd/MM/yyyy HH:mm:ss")</td>
+                            <td><a href="" class="btn btn-info">Sipariş Detayını Gör</a></td>
+                            <td><a href="" class="btn btn-danger"><i class="fa fa-trash" aria-hidden="true"></i></a></td>
+                          
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+
