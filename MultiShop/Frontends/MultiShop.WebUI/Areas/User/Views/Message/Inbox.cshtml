@@ -1,0 +1,57 @@
+﻿@model List<ResultInboxMessageDto>
+@{
+    ViewData["Title"] = "Inbox";
+    Layout = "~/Areas/User/Views/UserLayout/Index.cshtml";
+    int count = 0;
+}
+
+<div class="card shadow mb-4">
+    <div class="card-header py-3 d-flex justify-content-between align-items-center">
+        <h6 class="m-0 font-weight-bold text-dark">Gelen Mesajlarım</h6>
+    </div>
+    <div class="card-body">
+        <div class="table-responsive">
+            <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                <thead>
+                    <tr>
+                        <th># </th>
+                        <th>Gönderen </th>
+                        <th>Konu</th>
+                        <th>Tarihi</th>
+                        <th>Durumu</th>
+                        <th>Sil</th>
+                        <th>Görüntüle</th>
+                    </tr>
+                </thead>
+                <tfoot>
+                    <tr>
+                        <th># </th>
+                        <th>Gönderen </th>
+                        <th>Konu</th>
+                        <th>Tarihi</th>
+                        <th>Durumu</th>
+                        <th>Sil</th>
+                        <th>Görüntüle</th>
+                    </tr>
+                </tfoot>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        count++;
+                        <tr>
+                            <td scope="row">@count</td>
+                            <td scope="row">@item.SenderId</td>
+                            <td>@item.Subject</td>
+                            <td>@item.MessageDate.ToString("dd/MM/yyyy HH:mm:ss")</td>
+                            <td>@item.IsRead</td>
+                            <td><a href="" class="btn btn-danger"><i class="fa fa-trash" aria-hidden="true"></i></a></td>
+                            <td><a href="" class="btn btn-info">Mesajı Görüntüle</a></td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+

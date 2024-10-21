@@ -1,0 +1,13 @@
+﻿@model MultiShop.DtoLayer.IdentityDtos.UserDtos.UserDetailDto
+
+<div class="card mb-3 shadow">
+    <img class="card-img-top" src="https://floimages.mncdn.com/mnresize/768/-/media/catalog/product/img/banners/23-10/27/ekf-slider-app-1000-tlye-300-tl.jpg?w=768" alt="Card image cap">
+    <ul class="list-group list-group-flush">
+        <li class="list-group-item">Kullanıcı Adınız : @Model.Username</li>
+        <li class="list-group-item">Adınız Soyadınız : @Model.Name @Model.Surname</li>
+        <li class="list-group-item">E-Posta Adresi: @Model.Email</li>
+    </ul>
+    <div class="card-body">
+        <a href="#" class="btn btn-primary">Düzenle</a>
+    </div>
+</div>

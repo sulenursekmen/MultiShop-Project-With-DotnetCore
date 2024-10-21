@@ -18,7 +18,6 @@
     <Folder Include="Areas\Admin\Data\" />
     <Folder Include="Areas\Admin\Models\" />
     <Folder Include="Areas\User\Data\" />
-    <Folder Include="Areas\User\ViewComponents\UserLayoutViewComponents\" />
   </ItemGroup>
 
   <ItemGroup>

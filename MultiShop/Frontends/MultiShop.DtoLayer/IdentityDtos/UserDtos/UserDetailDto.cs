@@ -1,6 +1,6 @@
 ﻿namespace MultiShop.DtoLayer.IdentityDtos.UserDtos
 {
-    public class UserDetailViewModel
+    public class UserDetailDto 
     {
         public string Id { get; set; }
         public string Username { get; set; }
