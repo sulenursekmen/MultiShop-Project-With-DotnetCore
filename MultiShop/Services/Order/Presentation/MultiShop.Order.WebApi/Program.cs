@@ -42,6 +42,7 @@ builder.Services.AddScoped<RemoveOrderDetailCommandHandler>();
 //ORDERING
 
 builder.Services.AddScoped(typeof(IRepository<>), typeof(Repository<>));   
+builder.Services.AddScoped(typeof(IOrderingRepository), typeof(OrderingRepository));   
 builder.Services.AddMediatR(Assembly.GetExecutingAssembly());
 
 

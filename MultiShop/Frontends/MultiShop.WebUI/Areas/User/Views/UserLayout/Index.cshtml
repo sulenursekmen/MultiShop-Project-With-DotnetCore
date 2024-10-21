@@ -1,0 +1,105 @@
+﻿@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/UILayout/_UILayout.cshtml";
+
+    // Mevcut sayfanın yolunu alıyoruz
+    var currentPath = Context.Request.Path;
+}
+<style>
+    /* Bootstrap nav-link özelliklerini nav-link-user'a uygulama */
+    .nav-link-user {
+        display: block;
+        padding: 0.5rem 1rem;
+        font-weight: 400;
+        color: slategrey;
+        text-align: center;
+        white-space: nowrap;
+        background-color: transparent;
+        border: 0;
+        text-decoration: none;
+        transition: background-color 0.3s ease, color 0.3s ease;
+        border-radius: 0.25rem; /* Köşelerde hafif yuvarlatma */
+    }
+
+        /* Aktif olan link */
+        .nav-link-user.active {
+            background-color: #007bff; /* Mavi arka plan */
+            color: white; /* Beyaz metin */
+        }
+
+        /* Hover efekti */
+        .nav-link-user:hover {
+            background-color: #0056b3; /* Hover'da farklı bir mavi */
+            color: white;
+        }
+
+        /* Focus efekti */
+        .nav-link-user:focus {
+            outline: 0;
+            box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25); /* Mavi gölge */
+        }
+
+        /* Disabled durumu */
+        .nav-link-user.disabled {
+            color: #6c757d;
+            pointer-events: none;
+            background-color: transparent;
+        }
+
+</style>
+
+<div class="container-fluid mb-30">
+    <div class="row px-xl-5">
+        <div class="col-lg-3 px-xl-5">
+            <ul class="nav flex-column">
+                <li class="nav-item text-dark">
+                    <a class="nav-link-user @(currentPath == "/User/MyOrder/MyOrderList" ? "active" : "")" href="/User/MyOrder/MyOrderList">Aktif Siparişlerim</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link-user @(currentPath == "#" ? "active" : "")" href="#">Geçmiş Siparişlerim</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link-user @(currentPath == "/User/Cargo/Index" ? "active" : "")" href="/User/Cargo/Index">Kargolarım</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link-user @(currentPath == "/User/AnotherLink" ? "active" : "")" href="/User/AnotherLink">Profilim ?</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link-user @(currentPath == "#" ? "active" : "")" href="#">Mesajlarım</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link-user @(currentPath == "#" ? "active" : "")" href="#">Taleplerim</a>
+                </li>
+            </ul>
+
+        </div>
+
+        <div class="col-lg-9 px-xl-5">
+            <div class="container">
+                <main role="main" class="pb-3">
+                    @RenderBody()
+                </main>
+            </div>
+        </div>
+
+    </div>
+</div>
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        // Tüm nav-link'leri seç
+        var links = document.querySelectorAll('.nav-link');
+
+        // Her birine click event listener ekle
+        links.forEach(function (link) {
+            link.addEventListener('click', function () {
+                // Tüm linklerden "active" sınıfını kaldır
+                links.forEach(function (item) {
+                    item.classList.remove('active');
+                });
+
+                // Tıklanılan linke "active" sınıfını ekle
+                link.classList.add('active');
+            });
+        });
+    });
+</script>
