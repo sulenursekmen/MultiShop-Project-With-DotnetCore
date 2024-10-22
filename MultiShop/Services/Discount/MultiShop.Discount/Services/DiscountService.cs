@@ -100,5 +100,15 @@ namespace MultiShop.Discount.Services
                 return values;
             }
         }
+        //http://localhost:5000/services/discount/discounts/GetDiscountCouponCount
+        public async Task<int> GetDiscountCouponCountAsync()
+        {
+            string query = "Select Count(*) From Coupons";
+            using (var con = _dapperContext.CreateConnection())
+            {
+                var values = await con.QueryFirstOrDefaultAsync<int>(query);
+                return values;
+            }
+        }
     }
 }
