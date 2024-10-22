@@ -37,7 +37,8 @@ namespace MultiShop.Cargo.WebApi.Controllers
                 Email = createCargoCustomerDto.Email,
                 Name = createCargoCustomerDto.Name,
                 Phone = createCargoCustomerDto.Phone,
-                Surname = createCargoCustomerDto.Surname
+                Surname = createCargoCustomerDto.Surname,
+                UserCustomerId=createCargoCustomerDto.UserCustomerId,
             };
             _service.TInsert(cargoCustomer);
             return Ok("The cargo customer has been created successfully");
@@ -69,10 +70,16 @@ namespace MultiShop.Cargo.WebApi.Controllers
                 Email = updateCargoCustomerDto.Email,
                 Name = updateCargoCustomerDto.Name,
                 Phone = updateCargoCustomerDto.Phone,
-                Surname = updateCargoCustomerDto.Surname
+                Surname = updateCargoCustomerDto.Surname,
+                UserCustomerId=updateCargoCustomerDto.UserCustomerId
             };
             _service.TUpdate(cargoCustomer);
             return Ok("The cargo customer has been updated successfully");
+        }
+        [HttpGet("GetCargoCustomerById")]
+        public IActionResult GetCargoCustomerById(string id)
+        {
+            return Ok(_service.TGetCargoCustomerById(id));
         }
     }
 }

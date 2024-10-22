@@ -1,5 +1,4 @@
 ﻿<ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
-
     <!-- Sidebar - Brand -->
     <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
         <div>
@@ -7,8 +6,6 @@
         </div>
         <div class="sidebar-brand-text mx-3">MultiShop</div>
         <br />
-
-
     </a>
 
     <!-- Divider -->
@@ -23,7 +20,6 @@
             <span>Admin</span>
         </a>
     </li>
-
 
     <!-- Divider -->
     <hr class="sidebar-divider my-0">
@@ -54,25 +50,72 @@
         <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo"
            aria-expanded="true" aria-controls="collapseTwo">
             <i class="fas fa-folder"></i>
-            <span>Ürünler</span>
+            <span>Ürünler-İndirimler</span>
         </a>
         <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
             <div class="bg-white py-2 collapse-inner rounded">
                 <a class="collapse-item" href="/Admin/Product/ProductListWithCategory"><i class="fas fa-folder-open"></i> Ürün Listesi</a>
                 <a class="collapse-item" href="/Admin/Comment/Index"><i class="fa fa-comments"></i> Ürün Yorumları</a>
+                <a class="collapse-item" href="#"><i class="fa fa-comments"></i> Ürün İndirimler</a>
+            </div>
+        </div>
+    </li>
+
+    <!-- Nav Item - Order Collapse Menu -->
+    <li class="nav-item">
+        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseThree"
+           aria-expanded="true" aria-controls="collapseThree">
+            <i class="fas fa-folder"></i>
+            <span>Kargo İşlemleri-Kasa</span>
+        </a>
+        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionSidebar">
+            <div class="bg-white py-2 collapse-inner rounded">
+              @*   <a class="collapse-item" href="#"><i class="fas fa-folder-open"></i> Sipariş Listesi</a> *@
+                <a class="collapse-item" href="/Admin/Cargo/CargoCompanyList"><i class="fas fa-folder-open"></i> Kargo Şirketleri</a>
+                <a class="collapse-item" href="#"><i class="fas fa-folder-open"></i> Kasa Bilgileri</a>
+            </div>
+        </div>
+    </li>
+
+    <!-- Nav Item - Statistic Collapse Menu -->
+    <li class="nav-item">
+        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseFour"
+           aria-expanded="true" aria-controls="collapseFour">
+            <i class="fas fa-folder"></i>
+            <span>İstatistikler</span>
+        </a>
+        <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionSidebar">
+            <div class="bg-white py-2 collapse-inner rounded">
+                <a class="collapse-item" href="#"><i class="fas fa-folder-open"></i> İstatistikler</a>
+            </div>
+        </div>
+    </li>
+
+    <!-- Nav Item - User Collapse Menu -->
+    <li class="nav-item">
+        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseFive"
+           aria-expanded="true" aria-controls="collapseFour">
+            <i class="fas fa-folder"></i>
+            <span>Kullanıcılar-Mesajlar</span>
+        </a>
+        <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionSidebar">
+            <div class="bg-white py-2 collapse-inner rounded">
+                <a class="collapse-item" href="/Admin/User/AllUserList"><i class="fas fa-users"></i> Kullanıcı Listesi</a>
+                <a class="collapse-item" href="#"><i class="fas fa-folder-open"></i> Mesajlar</a>
             </div>
         </div>
     </li>
 
     <!-- Nav Item - Page Collapse Menu -->
     <li class="nav-item">
-        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseThree"
-           aria-expanded="true" aria-controls="collapseThree">
+        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseSix"
+           aria-expanded="true" aria-controls="collapseSix">
             <i class="fas fa-folder"></i>
             <span>Sayfa Ayarları</span>
         </a>
-        <div id="collapseThree" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
+        <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordionSidebar">
             <div class="bg-white py-2 collapse-inner rounded">
+               
                 <a class="collapse-item" href="/Admin/FeatureSlider/Index"><i class="far fa-images"></i> Öne Çıkan Resimler</a>
                 <a class="collapse-item" href="/Admin/SpecialOffer/Index"><i class="fas fa-hand-holding-heart"></i> Özel Teklifler</a>
                 <a class="collapse-item" href="/Admin/Feature/Index"><i class="fas fa-store"></i> Öne Çıkan</a>
@@ -83,7 +126,6 @@
         </div>
     </li>
 
-    
     <!-- Divider -->
     <hr class="sidebar-divider">
 
@@ -95,6 +137,13 @@
         </a>
     </li>
 
+    <!-- Nav Item - -->
+    <li class="nav-item">
+        <a class="nav-link" href="#">
+            <i class="fas fa-sign-out-alt"></i>
+            <span>Çıkış Yap</span>
+        </a>
+    </li>
 
     <!-- Sidebar Toggler (Sidebar) -->
     <div class="text-center d-none d-md-inline">

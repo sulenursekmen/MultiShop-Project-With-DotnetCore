@@ -10,4 +10,9 @@
     <ProjectReference Include="..\..\Services\Catalog\MultiShop.Catalog\MultiShop.Catalog.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="CargoDtos\CargoDetailDtos\" />
+    <Folder Include="CargoDtos\CargoOperationDtos\" />
+  </ItemGroup>
+
 </Project>
