@@ -35,7 +35,7 @@ namespace MultiShop.Message.Controllers
             var values = await _userMessageService.GetInboxMessageAsync(id);
             return Ok(values);
         }
-        //http://localhost:5000/services/message/usermessages/gettotalmessagecount
+     
         [HttpGet("GetTotalMessageCount")]
         public async Task<IActionResult> GetTotalMessageCount()
         {
