@@ -28,8 +28,12 @@ using MultiShop.WebUI.Services.StatisticServices.DiscountStatisticServices;
 using MultiShop.WebUI.Services.StatisticServices.MessageStatisticServices;
 using MultiShop.WebUI.Services.StatisticServices.UserStatisticServices;
 using MultiShop.WebUI.Settings;
+using MultiShop.WebUI.SignalRHub;
 
 var builder = WebApplication.CreateBuilder(args);
+
+builder.Services.AddSignalR();
+
 builder.Services.AddAccessTokenManagement();
 builder.Services.AddControllersWithViews();
 builder.Services.AddHttpClient();
@@ -41,7 +45,6 @@ builder.Services.AddScoped<ClientCredentialTokenHandler>();
 builder.Services.AddHttpClient<IClientCredentialTokenService, ClientCredentialTokenService>();
 builder.Services.Configure<ClientSettings>(builder.Configuration.GetSection("ClientSettings"));
 builder.Services.Configure<ServiceApiSettings>(builder.Configuration.GetSection("ServiceApiSettings"));
-
 
 
 builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddCookie(JwtBearerDefaults.AuthenticationScheme, opt =>
@@ -158,7 +161,7 @@ builder.Services.AddHttpClient<IUserCommentService, UserCommentService>(opt =>
 builder.Services.AddHttpClient<ICommentStatisticService, CommentStatisticService>(opt =>
 {
     opt.BaseAddress = new Uri($"{values.OcelotUrl}/{values.Comment.Path}");
-}).AddHttpMessageHandler<ClientCredentialTokenHandler>();
+}).AddHttpMessageHandler<ResourceOwnerPasswordTokenHandler>();
 #endregion
 
 #region Basket Microservice
@@ -239,6 +242,9 @@ app.UseStaticFiles();
 app.UseRouting();
 app.UseAuthentication();
 app.UseAuthorization();
+
+
+app.MapHub<SignalRHub>("/signalrhub");
 
 app.MapControllerRoute(
     name: "default",

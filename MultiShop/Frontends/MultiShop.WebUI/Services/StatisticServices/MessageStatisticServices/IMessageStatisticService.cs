@@ -3,6 +3,7 @@
     public interface IMessageStatisticService
     {
         Task<long> GetTotalMessageCount();
+        Task<int> GetTotalMessageCountByReceiverId(string id);
     }
 }
 

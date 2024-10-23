@@ -34,7 +34,7 @@ namespace MultiShop.WebUI.Services.CommentServices
         {
             var responseMessage = await _httpClient.GetAsync("userComments");
             var jsonData = await responseMessage.Content.ReadAsStringAsync();
-            var values = JsonConvert.DeserializeObject<List<ResultCommentDto>>(jsonData); ; ;
+            var values = JsonConvert.DeserializeObject<List<ResultCommentDto>>(jsonData);
             return values;
         }
 

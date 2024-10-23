@@ -43,6 +43,14 @@ namespace MultiShop.Message.Controllers
             return Ok(values);
         }
 
+
+        [HttpGet("GetTotalMessageCountByReceiverId")]
+        public async Task<IActionResult> GetTotalMessageCountByReceiverId(string id)
+        {
+            int values = await _userMessageService.GetTotalMessageCountByReceiverIdAsync(id);
+            return Ok(values);
+        }
+
         [HttpPost]
         public async Task<IActionResult> CreateMessageAsync(CreateMessageDto createMessageDto)
         {
@@ -62,9 +70,6 @@ namespace MultiShop.Message.Controllers
             await _userMessageService.UpdateMessageAsync(updateMessageDto);
             return Ok("The message has been updated successfully");
         }
-
-
-
 
     }
 }

@@ -84,7 +84,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MultiShop.Images", "Service
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Message", "Message", "{6133E0DB-9B92-4C28-9DD3-80799C3B7BF3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiShop.Message", "Services\Message\MultiShop.Message\MultiShop.Message.csproj", "{D2C5BC8B-7F17-4DB9-BE5F-BB2416E97550}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MultiShop.Message", "Services\Message\MultiShop.Message\MultiShop.Message.csproj", "{D2C5BC8B-7F17-4DB9-BE5F-BB2416E97550}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -121,7 +121,7 @@ namespace MultiShop.IdentityServer
                     IdentityServerConstants.StandardScopes.Profile
                 },
                 //sn
-                AccessTokenLifetime=600
+                AccessTokenLifetime=6000
             }
 
         };

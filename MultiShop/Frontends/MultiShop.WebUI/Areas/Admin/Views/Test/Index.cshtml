@@ -1,0 +1,56 @@
+﻿@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Areas/Admin/Views/AdminLayout/Index.cshtml";
+}
+
+<div class="content">
+    <br /> <br />
+    <script src="~/microsoft/signalr/dist/browser/signalr.min.js"></script>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <script type="text/javascript">
+                    $(document).ready(() => {
+                        // SignalR Hub connection
+                        var connection = new signalR.HubConnectionBuilder().withUrl("http://localhost:5235/SignalRHub").build();
+
+                        // Update connection status
+                        $("#connstatus").text(connection.state);
+
+                        connection.start().then(() => {
+                            $("#connstatus").text(connection.state);
+
+                            // Interval to request comment count periodically
+                            setInterval(() => {
+                                connection.invoke("SendStatisticCount").catch((err) => {
+                                    console.error("Error invoking SendStatisticCount:", err);
+                                });
+                            }, 1000); // Every 1000 ms (1 second)
+
+                        }).catch((err) => {
+                            console.log(err);
+                        });
+
+                        // Listening for the 'ReceiveCommentCount' event from the server
+                        connection.on("ReceiveCommentCount", (value) => {
+                            $("#commentcount").text(value); // Update comment count in the UI
+                        });
+                    });
+                </script>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="col-md-8 offset-2">
+    <div class="alert alert-primary">
+        Connection Status: <strong id="connstatus"></strong>
+    </div>
+
+    <div class="alert alert-secondary">
+        Comment Count: <strong id="commentcount"></strong>
+    </div>
+</div>
