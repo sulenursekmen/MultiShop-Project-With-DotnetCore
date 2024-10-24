@@ -1,10 +1,11 @@
-﻿@model List<ResultCategoryDto>
+﻿@inject Microsoft.AspNetCore.Mvc.Localization.IViewLocalizer localizer
+@model List<ResultCategoryDto>
 
 <div class="container-fluid bg-light mb-30">
     <div class="row px-xl-5">
         <div class="col-lg-3 d-none d-lg-block">
             <a class="btn d-flex align-items-center justify-content-between  w-100" data-toggle="collapse" href="#navbar-vertical" style="height: 65px; padding: 0 30px;">
-                <h6 class="text-dark m-0"><i class="fa fa-bars mr-2"></i>Kategoriler</h6>
+                <h6 class="text-dark m-0"><i class="fa fa-bars mr-2"></i>@localizer["Kategoriler"] </h6>
                 <i class="fa fa-angle-down text-dark"></i>
             </a>
             <nav class="collapse position-absolute navbar navbar-vertical navbar-light align-items-start p-0 bg-light" id="navbar-vertical" style="width: calc(100% - 30px); z-index: 999;">
@@ -27,26 +28,19 @@
                 </button>
                 <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                     <div class="navbar-nav mr-auto py-0">
-                        <a href="index.html" class="nav-item nav-link">Ana Sayfa</a>
-                        <a href="shop.html" class="nav-item nav-link">Ürünler</a>
+                        <a href="index.html" class="nav-item nav-link">@localizer["Ana Sayfa"]</a>
+                        <a href="shop.html" class="nav-item nav-link">@localizer["Ürünler"]</a>
                         <a href="detail.html" class="nav-item nav-link">Ürün Detayları</a>
                         <a href="detail.html" class="nav-item nav-link">Günün Fırsatı</a>
-                        @*  <div class="nav-item dropdown">
-                        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Pages <i class="fa fa-angle-down mt-1"></i></a>
-                        <div class="dropdown-menu bg-primary rounded-0 border-0 m-0">
-                        <a href="cart.html" class="dropdown-item">Sepetim</a>
-                        <a href="checkout.html" class="dropdown-item">Ödeme</a>
-                        </div>
-                        </div> *@
-                        <a href="/Contact/Index/" class="nav-item nav-link">İletişim</a>
+                        <a href="/Contact/Index/" class="nav-item nav-link">@localizer["İletişim"]</a>
                     </div>
                     <div class="navbar-nav ml-auto py-0 d-none d-lg-block">
                         <a href="" class="btn px-0">
-                            <i class="fas fa-heart "></i> Favorilerim
+                            <i class="fas fa-heart "></i> @localizer["Favorilerim"]
                             <span class="badge text-secondary border border-primary  rounded-circle" style="padding-bottom: 2px; background-color:darkred">0</span>
                         </a>
                         <a href="" class="btn px-0 ml-3">
-                            <i class="fas fa-shopping-cart"></i> Sepetim
+                            <i class="fas fa-shopping-cart"></i>@localizer["Sepetim"]
                             <span class="badge text-secondary border border-primary  rounded-circle" style="padding-bottom: 2px; background-color:darkred">0</span>
                         </a>
 
